@@ -1,0 +1,124 @@
+{
+  "year": 2025,
+  "categories": [
+    {
+      "code": "GM",
+      "name": "General Merit"
+    },
+    {
+      "code": "1G",
+      "name": "Category 1"
+    },
+    {
+      "code": "2AG",
+      "name": "Category 2A"
+    },
+    {
+      "code": "2BG",
+      "name": "Category 2B"
+    },
+    {
+      "code": "3AG",
+      "name": "Category 3A"
+    },
+    {
+      "code": "3BG",
+      "name": "Category 3B"
+    },
+    {
+      "code": "SCG",
+      "name": "Scheduled Caste"
+    },
+    {
+      "code": "STG",
+      "name": "Scheduled Tribe"
+    }
+  ],
+  "branches": [
+    {
+      "code": "CS",
+      "name": "Computer Science & Engineering"
+    },
+    {
+      "code": "IS",
+      "name": "Information Science & Engineering"
+    },
+    {
+      "code": "AI",
+      "name": "Artificial Intelligence & ML"
+    },
+    {
+      "code": "DS",
+      "name": "Computer Science (Data Science)"
+    },
+    {
+      "code": "CY",
+      "name": "Computer Science (Cyber Security)"
+    },
+    {
+      "code": "EC",
+      "name": "Electronics & Communication"
+    },
+    {
+      "code": "EE",
+      "name": "Electrical & Electronics"
+    },
+    {
+      "code": "EI",
+      "name": "Electronics & Instrumentation"
+    },
+    {
+      "code": "ME",
+      "name": "Mechanical Engineering"
+    },
+    {
+      "code": "CV",
+      "name": "Civil Engineering"
+    },
+    {
+      "code": "BT",
+      "name": "Biotechnology"
+    },
+    {
+      "code": "CH",
+      "name": "Chemical Engineering"
+    },
+    {
+      "code": "AE",
+      "name": "Aeronautical Engineering"
+    }
+  ],
+  "rounds": [
+    {
+      "code": "R1",
+      "name": "Round 1"
+    },
+    {
+      "code": "R2",
+      "name": "Round 2"
+    },
+    {
+      "code": "EXT",
+      "name": "Extended Round"
+    }
+  ],
+  "cities": [
+    "Bagalkot",
+    "Bengaluru",
+    "Davangere",
+    "Dharwad",
+    "Hassan",
+    "Hubballi",
+    "Kalaburagi",
+    "Mangaluru",
+    "Mysuru",
+    "Shivamogga",
+    "Tumakuru",
+    "Udupi"
+  ],
+  "collegeTypes": [
+    "Government",
+    "Aided",
+    "Private"
+  ]
+}

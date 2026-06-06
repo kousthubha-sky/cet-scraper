@@ -1,0 +1,218 @@
+[
+  {
+    "code": "E001",
+    "name": "University Visvesvaraya College of Engineering, Bangalore",
+    "short": "UVCE",
+    "city": "Bengaluru",
+    "type": "Government",
+    "fees": 45000
+  },
+  {
+    "code": "E005",
+    "name": "R V College of Engineering, Bangalore",
+    "short": "RVCE",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E007",
+    "name": "B M S College of Engineering, Bangalore",
+    "short": "BMSCE",
+    "city": "Bengaluru",
+    "type": "Aided",
+    "fees": 85000
+  },
+  {
+    "code": "E009",
+    "name": "M S Ramaiah Institute of Technology, Bangalore",
+    "short": "MSRIT",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E011",
+    "name": "Dayananda Sagar College of Engineering, Bangalore",
+    "short": "DSCE",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E013",
+    "name": "Bangalore Institute of Technology, Bangalore",
+    "short": "BIT",
+    "city": "Bengaluru",
+    "type": "Aided",
+    "fees": 85000
+  },
+  {
+    "code": "E015",
+    "name": "Sir M Visvesvaraya Institute of Technology, Bangalore",
+    "short": "Sir MVIT",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E017",
+    "name": "BMS Institute of Technology and Management, Bangalore",
+    "short": "BMSIT",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E019",
+    "name": "RNS Institute of Technology, Bangalore",
+    "short": "RNSIT",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E021",
+    "name": "CMR Institute of Technology, Bangalore",
+    "short": "CMRIT",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E023",
+    "name": "Global Academy of Technology, Bangalore",
+    "short": "GAT",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E025",
+    "name": "Acharya Institute of Technology, Bangalore",
+    "short": "AIT",
+    "city": "Bengaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E101",
+    "name": "JSS Science and Technology University (SJCE), Mysuru",
+    "short": "SJCE",
+    "city": "Mysuru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E103",
+    "name": "The National Institute of Engineering, Mysuru",
+    "short": "NIE",
+    "city": "Mysuru",
+    "type": "Aided",
+    "fees": 85000
+  },
+  {
+    "code": "E105",
+    "name": "Vidyavardhaka College of Engineering, Mysuru",
+    "short": "VVCE",
+    "city": "Mysuru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E201",
+    "name": "NMAM Institute of Technology, Nitte",
+    "short": "NMAMIT",
+    "city": "Udupi",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E203",
+    "name": "Sahyadri College of Engineering and Management, Mangalore",
+    "short": "Sahyadri",
+    "city": "Mangaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E205",
+    "name": "Canara Engineering College, Mangalore",
+    "short": "CEC",
+    "city": "Mangaluru",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E301",
+    "name": "KLE Technological University (BVB), Hubballi",
+    "short": "KLETU",
+    "city": "Hubballi",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E303",
+    "name": "SDM College of Engineering and Technology, Dharwad",
+    "short": "SDMCET",
+    "city": "Dharwad",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E305",
+    "name": "Basaveshwar Engineering College, Bagalkot",
+    "short": "BEC",
+    "city": "Bagalkot",
+    "type": "Aided",
+    "fees": 85000
+  },
+  {
+    "code": "E401",
+    "name": "University B D T College of Engineering, Davangere",
+    "short": "UBDTCE",
+    "city": "Davangere",
+    "type": "Government",
+    "fees": 45000
+  },
+  {
+    "code": "E403",
+    "name": "Bapuji Institute of Engineering and Technology, Davangere",
+    "short": "BIET",
+    "city": "Davangere",
+    "type": "Private",
+    "fees": 215000
+  },
+  {
+    "code": "E405",
+    "name": "Siddaganga Institute of Technology, Tumakuru",
+    "short": "SIT",
+    "city": "Tumakuru",
+    "type": "Aided",
+    "fees": 85000
+  },
+  {
+    "code": "E407",
+    "name": "Malnad College of Engineering, Hassan",
+    "short": "MCE",
+    "city": "Hassan",
+    "type": "Aided",
+    "fees": 85000
+  },
+  {
+    "code": "E409",
+    "name": "P D A College of Engineering, Kalaburagi",
+    "short": "PDACE",
+    "city": "Kalaburagi",
+    "type": "Government",
+    "fees": 45000
+  },
+  {
+    "code": "E411",
+    "name": "JNN College of Engineering, Shivamogga",
+    "short": "JNNCE",
+    "city": "Shivamogga",
+    "type": "Private",
+    "fees": 215000
+  }
+]

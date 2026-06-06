@@ -1,0 +1,297 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 8px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 8px);
+  --radius-2xl: calc(var(--radius) + 16px);
+  --radius-3xl: calc(var(--radius) + 28px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-card-soft: var(--card-soft);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+  --font-serif: "PP Mondwest", "Instrument Serif", ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, monospace;
+
+  /* Emil-grade easing curves — the built-in CSS easings are too weak. */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/*
+ * Serif accent renders with Instrument Serif (loaded via <link> in layout).
+ * To use PP Mondwest instead, drop PPMondwest-Regular.woff2 into /public and
+ * uncomment this — the font stack already prefers it:
+ *
+ * @font-face {
+ *   font-family: "PP Mondwest";
+ *   src: url("/PPMondwest-Regular.woff2") format("woff2");
+ *   font-weight: 400;
+ *   font-display: swap;
+ * }
+ */
+
+:root {
+  --radius: 1rem;
+
+  /* Light, bright, white-throughout — the Viktor Oddy × Core Features palette. */
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --card-soft: #f4f8f9; /* pastel card base */
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+
+  /* Primary action = deep navy ink (buttons). */
+  --primary: #051a24;
+  --primary-foreground: #f6fcff;
+
+  --secondary: #f1f5f9;
+  --secondary-foreground: #1e293b;
+  --muted: #f4f8f9;
+  --muted-foreground: #64748b;
+
+  /* Accent = purple pop from the gradient family. */
+  --accent: #a855f7;
+  --accent-foreground: #ffffff;
+
+  --destructive: #e11d48;
+  --success: #059669;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #a855f7;
+
+  /* Soft, lifted shadows (Core Features card feel). */
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 10px 30px -10px rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 24px 60px -16px rgba(15, 23, 42, 0.18);
+
+  /* Gradient accent stops. */
+  --grad-gold: #f5c344;
+  --grad-orange: #ffb347;
+  --grad-yellow: #f9ed96;
+  --grad-coral: #f28482;
+  --grad-salmon: #f8aca0;
+  --grad-lilac: #e5a1f5;
+  --grad-violet: #b567c2;
+}
+
+.dark {
+  --background: #0b1620;
+  --foreground: #f1f5f9;
+  --card: #122230;
+  --card-foreground: #f1f5f9;
+  --card-soft: #122230;
+  --popover: #122230;
+  --popover-foreground: #f1f5f9;
+  --primary: #f6fcff;
+  --primary-foreground: #051a24;
+  --secondary: #1c2c3a;
+  --secondary-foreground: #f1f5f9;
+  --muted: #1c2c3a;
+  --muted-foreground: #94a3b8;
+  --accent: #c084fc;
+  --accent-foreground: #0b1620;
+  --destructive: #fb7185;
+  --success: #34d399;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.14);
+  --ring: #c084fc;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground;
+    min-height: 100dvh;
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply tracking-tight;
+    text-wrap: balance;
+  }
+  button,
+  [role="button"] {
+    touch-action: manipulation;
+  }
+}
+
+@layer utilities {
+  /* Frosted-glass surface (used by sticky nav + floating cards). */
+  .glass {
+    background: color-mix(in srgb, #ffffff 72%, transparent);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+  }
+  .glass-strong {
+    background: color-mix(in srgb, #ffffff 86%, transparent);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+  }
+
+  /* Tactile press feedback for any pressable element. */
+  .pressable {
+    transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out),
+      background-color 160ms var(--ease-out), border-color 160ms var(--ease-out);
+  }
+  .pressable:active {
+    transform: scale(0.97);
+  }
+
+  .shadow-ios {
+    box-shadow: var(--shadow-md);
+  }
+  .shadow-ios-lg {
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* The signature layered button shadows. */
+  .btn-shadow-primary {
+    box-shadow: 0 1px 2px 0 rgba(5, 26, 36, 0.1),
+      0 4px 4px 0 rgba(5, 26, 36, 0.09), 0 9px 6px 0 rgba(5, 26, 36, 0.05),
+      0 17px 7px 0 rgba(5, 26, 36, 0.01), 0 26px 7px 0 rgba(5, 26, 36, 0),
+      inset 0 2px 8px 0 rgba(255, 255, 255, 0.5);
+  }
+  .btn-shadow-secondary {
+    box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.05), 0 4px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Warm→violet gradient text for badges / emphasis. */
+  .text-gradient {
+    background-image: linear-gradient(
+      90deg,
+      var(--grad-gold),
+      var(--grad-coral),
+      var(--grad-violet)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Pastel radial gradient cards (Core Features). */
+  .grad-card-1 {
+    background: radial-gradient(
+      circle at 50% 0%,
+      var(--grad-orange) 0%,
+      var(--grad-yellow) 30%,
+      var(--card-soft) 60%,
+      var(--card-soft) 100%
+    );
+  }
+  .grad-card-2 {
+    background: radial-gradient(
+      circle at 50% 0%,
+      var(--grad-lilac) 0%,
+      var(--grad-salmon) 30%,
+      var(--card-soft) 60%,
+      var(--card-soft) 100%
+    );
+  }
+  .grad-card-3 {
+    background: radial-gradient(
+      circle at 50% 0%,
+      var(--grad-yellow) 0%,
+      var(--grad-lilac) 30%,
+      var(--card-soft) 60%,
+      var(--card-soft) 100%
+    );
+  }
+
+  /* Dotted mesh overlay, faded toward the bottom. */
+  .mesh-overlay {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.8) 1px, transparent 1px);
+    background-size: 16px 16px;
+    -webkit-mask-image: radial-gradient(circle at center top, black 0%, transparent 80%);
+    mask-image: radial-gradient(circle at center top, black 0%, transparent 80%);
+  }
+}
+
+/* ── Animations ─────────────────────────────────────────────── */
+
+/* Ambient pastel blobs on the landing hero. */
+@keyframes blob {
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -40px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.95); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+.animate-blob { animation: blob 14s infinite ease-in-out; }
+.animation-delay-2000 { animation-delay: 2s; }
+.animation-delay-4000 { animation-delay: 4s; }
+
+/* Infinite marquee strip. */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee { animation: marquee 40s linear infinite; }
+@media (max-width: 640px) {
+  .animate-marquee { animation-duration: 22s; }
+}
+
+/* Scroll-reveal. Never from scale(0). */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up,
+.animate-fade-in-up { animation: fade-up 0.7s var(--ease-out) both; }
+
+/* Staggered list reveal — short delays only (Emil: 30–80ms). */
+.stagger > * { animation: fade-up 0.6s var(--ease-out) both; }
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 60ms; }
+.stagger > *:nth-child(3) { animation-delay: 120ms; }
+.stagger > *:nth-child(4) { animation-delay: 180ms; }
+.stagger > *:nth-child(5) { animation-delay: 240ms; }
+.stagger > *:nth-child(6) { animation-delay: 300ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .pressable:active { transform: none; }
+  .animate-marquee { animation: none; }
+}
