@@ -19,7 +19,7 @@ export const metadata = {
     "KEA cutoff",
   ],
   openGraph: {
-    title: "KCET College Finder 2025",
+    title: "KCET College Finder 2026",
     description:
       "Enter your KCET rank & category — instantly see which Karnataka engineering colleges and branches you can get.",
     type: "website",
