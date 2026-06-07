@@ -7,7 +7,18 @@ export function Footer() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-md">
             KCET College Finder — a free tool to explore Karnataka engineering
-            admissions by rank, branch and cutoff.
+            admissions by rank, branch and cutoff. <br />
+            Built with ❤️ by{" "}
+            <b>
+              <a
+              href="https://kousthubha.me"
+              className="underline hover:text-foreground"
+            >
+              kousthubha.me
+            </a>
+            </b>
+            
+            <br /> Data sourced from official KEA results.
           </p>
           <nav className="flex gap-5 font-medium">
             <Link href="/predict" className="pressable hover:text-foreground">Predict</Link>

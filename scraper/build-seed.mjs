@@ -126,50 +126,12 @@ const taxonomy = {
   collegeTypes: ["Government", "Aided", "Private"],
 };
 
-// ---- Sample students --------------------------------------------------------
-// Deterministic synthetic student records so the "look up by KCET number" flow
-// works out of the box. Replace with real KEA result data via scrape-kea.mjs.
-// Real KCET ranks → look-up needs KEA's results portal; this is SAMPLE data.
-function mulberry32(seed) {
-  return function () {
-    seed |= 0;
-    seed = (seed + 0x6d2b79f5) | 0;
-    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-const rng = mulberry32(20250606);
-const FIRST = ["Aarav","Diya","Vihaan","Ananya","Arjun","Ishita","Rohan","Sneha","Karthik","Meghana","Nikhil","Pooja","Sahil","Tanvi","Varun","Kavya","Aditya","Shreya","Manoj","Divya"];
-const LAST = ["Shetty","Hegde","Gowda","Rao","Patil","Naik","Kulkarni","Reddy","Bhat","Murthy","Kamath","Pai","Desai","Jain","Nair"];
-const MAX_RANK = 130000;
-const N_STUDENTS = 800;
-const catCodes = CATEGORIES.map((c) => c.code);
-const usedNums = new Set();
-const students = [];
-for (let i = 0; i < N_STUDENTS; i++) {
-  // unique-ish ranks spread across the range
-  const rank = 1 + Math.floor(rng() * MAX_RANK);
-  const cetNumber = `KA${String(YEAR).slice(-2)}${String(100001 + i)}`;
-  usedNums.add(cetNumber);
-  students.push({
-    cetNumber,
-    name: `${FIRST[Math.floor(rng() * FIRST.length)]} ${LAST[Math.floor(rng() * LAST.length)]}`,
-    rank,
-    category: catCodes[Math.floor(rng() * catCodes.length)],
-    year: YEAR,
-  });
-}
-students.sort((a, b) => a.rank - b.rank);
-
 fs.mkdirSync(outDir, { recursive: true });
-fs.writeFileSync(path.join(outDir, "students.json"), JSON.stringify(students));
 fs.writeFileSync(path.join(outDir, "colleges.json"), JSON.stringify(colleges, null, 2));
 fs.writeFileSync(path.join(outDir, "cutoffs.json"), JSON.stringify(cutoffs));
 fs.writeFileSync(path.join(outDir, "taxonomy.json"), JSON.stringify(taxonomy, null, 2));
 
 console.log(
   `Seed built → ${colleges.length} colleges, ${cutoffs.length} cutoff rows, ` +
-    `${taxonomy.branches.length} branches, ${taxonomy.categories.length} categories, ` +
-    `${students.length} sample students (try ${students[0].cetNumber}).`
+    `${taxonomy.branches.length} branches, ${taxonomy.categories.length} categories.`
 );

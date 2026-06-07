@@ -10,9 +10,8 @@ Reach**, with branch explorer, college search and side-by-side comparison.
 
 ## Features
 
-- **Predictor** (`/predict`) — enter your rank **or just your KCET application
-  number** (we look up rank + category for you) → eligible colleges, classified
-  Safe / Target / Reach, filterable by branch, city and college type.
+- **Predictor** (`/predict`) — enter your rank and category → eligible colleges,
+  classified Safe / Target / Reach, filterable by branch, city and college type.
 - **Branch explorer** (`/branches`, `/branches/[code]`) — every branch, the
   colleges that offer it, and category/round-wise closing ranks.
 - **College search** (`/colleges`, `/colleges/[code]`) — search any college; see
@@ -36,7 +35,6 @@ The app reads three files from `public/data/`:
 | `colleges.json` | college meta: `code, name, short, city, type, fees`             |
 | `cutoffs.json`  | `collegeCode, branch, category, round, year, closingRank, fees` |
 | `taxonomy.json` | categories, branches, rounds, cities, college types             |
-| `students.json` | KCET-number lookup: `cetNumber, name, rank, category, year`     |
 
 Two ways to produce them:
 

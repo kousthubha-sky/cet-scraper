@@ -5,13 +5,13 @@ import { Footer } from "@/components/site/Footer";
 export const metadata = {
   metadataBase: new URL("https://kcet-college-finder.vercel.app"),
   title: {
-    default: "KCET College Finder 2025 — Predict colleges by rank & branch",
+    default: "KCET College Finder 2026 — Predict colleges by rank & branch",
     template: "%s · KCET College Finder",
   },
   description:
     "Enter your KCET rank and category to instantly find Karnataka engineering colleges you can get. Explore branches, compare colleges, and check last-year cutoffs.",
   keywords: [
-    "KCET 2025",
+    "KCET 2026",
     "KCET college predictor",
     "KCET cutoff",
     "Karnataka CET",

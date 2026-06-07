@@ -18,8 +18,6 @@ export default async function PredictPage({ searchParams }) {
   const rank = parseInt(sp.rank, 10) || null;
   const category = sp.category || "GM";
   const round = sp.round || "R1";
-  const cet = sp.cet || "";
-  const name = sp.name || "";
 
   const matches = rank
     ? predict(getCutoffs(), { rank, category, round })
@@ -32,7 +30,7 @@ export default async function PredictPage({ searchParams }) {
     <div className="mx-auto max-w-6xl px-4 py-8">
       <div className="mb-6">
         <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-          {name ? `Hi ${name} 👋` : "College predictor"}
+          College predictor
         </h1>
         {rank ? (
           <p className="mt-2 text-sm text-muted-foreground">
@@ -40,7 +38,6 @@ export default async function PredictPage({ searchParams }) {
             <span className="font-semibold text-foreground">{ordinal(rank)}</span>{" "}
             · {category} ({catName}) ·{" "}
             {taxonomy.rounds.find((r) => r.code === round)?.name} · {year} cutoffs
-            {cet && <> · {cet}</>}
           </p>
         ) : (
           <p className="mt-1 text-sm text-muted-foreground">
@@ -52,7 +49,7 @@ export default async function PredictPage({ searchParams }) {
       <PredictForm
         taxonomy={taxonomy}
         compact
-        defaults={{ rank: rank || "", category, round, cet }}
+        defaults={{ rank: rank || "", category, round }}
       />
 
       <div className="mt-8">

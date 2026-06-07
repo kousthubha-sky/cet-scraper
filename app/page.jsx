@@ -39,8 +39,8 @@ export default function HomePage() {
         </h1>
 
         <p className="mx-auto mt-5 max-w-lg text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Enter your KCET rank — or just your application number — and instantly
-          see every Karnataka engineering college within reach, sorted{" "}
+          Enter your KCET rank and category — and instantly see every Karnataka
+          engineering college within reach, sorted{" "}
           <span className="font-medium text-foreground">
             Safe → Target → Reach
           </span>
