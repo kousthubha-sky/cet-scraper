@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   metadataBase: new URL("https://kcet-college-finder.vercel.app"),
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="flex-1 pb-24 sm:pb-0">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
