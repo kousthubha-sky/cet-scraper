@@ -5,7 +5,7 @@ import {
   GitCompareArrows,
   ArrowUpRight,
   Search,
-  ShieldCheck,
+  TriangleAlert,
 } from "lucide-react";
 import { getTaxonomy, getColleges, dataYear } from "@/lib/data";
 import { PredictForm } from "@/components/PredictForm";
@@ -64,8 +64,8 @@ export default function HomePage() {
         </div>
 
         <p className="mt-4 flex items-center justify-center gap-1.5 text-center text-xs text-muted-foreground">
-          <ShieldCheck className="size-3.5 text-success" />
-          Based on {year} closing ranks · always verify on the official KEA site
+          <TriangleAlert className="size-3.5 text-amber-500" />
+          Indicative sample data, not official KEA results — always verify on the official KEA site
         </p>
       </section>
 

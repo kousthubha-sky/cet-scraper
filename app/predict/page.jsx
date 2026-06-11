@@ -46,6 +46,29 @@ export default async function PredictPage({ searchParams }) {
         )}
       </div>
 
+      <div className="mb-6 flex items-start gap-2.5 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+        <TriangleAlert className="mt-0.5 size-4 shrink-0 text-amber-500" />
+        <p>
+          <b>
+            The entire {year} dataset here is indicative sample data, not
+            official KEA results.
+          </b>{" "}
+          Every closing rank is estimated by a formula, and each college&apos;s
+          branch list is generated heuristically — so ranks can be off and
+          colleges may show branches they don&apos;t offer (or miss ones they
+          do). Use this only to explore — always confirm on the{" "}
+          <a
+            href="https://cetonline.karnataka.gov.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold underline"
+          >
+            official KEA site
+          </a>{" "}
+          before making any decision.
+        </p>
+      </div>
+
       <PredictForm
         taxonomy={taxonomy}
         compact
