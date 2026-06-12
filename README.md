@@ -15,7 +15,7 @@ Reach**, with branch explorer, college search and side-by-side comparison.
 - **Branch explorer** (`/branches`, `/branches/[code]`) — every branch, the
   colleges that offer it, and category/round-wise closing ranks.
 - **College search** (`/colleges`, `/colleges/[code]`) — search any college; see
-  all branches, category-wise cutoffs and fees.
+  all branches and category-wise cutoffs.
 - **Compare** (`/compare?a=E005&b=E007`) — two colleges side by side, branch by
   branch.
 - **JSON API** — `/api/predict`, `/api/colleges`, `/api/branches`.
@@ -26,28 +26,38 @@ Next.js 15 (App Router) · React 19 · Tailwind CSS v4 · shadcn/ui primitives �
 lucide-react. Static-generated college & branch pages for SEO; data read on the
 server from `public/data`.
 
-## Data & the scraper
+## Data
 
-The app reads three files from `public/data/`:
+The app reads three files from `public/data/` (committed; no build-time fetch):
 
-| file            | shape                                                            |
-| --------------- | ---------------------------------------------------------------- |
-| `colleges.json` | college meta: `code, name, short, city, type, fees`             |
-| `cutoffs.json`  | `collegeCode, branch, category, round, year, closingRank, fees` |
-| `taxonomy.json` | categories, branches, rounds, cities, college types             |
+| file            | shape                                                                  |
+| --------------- | ---------------------------------------------------------------------- |
+| `colleges.json` | `code, name, short, city, type`                                        |
+| `cutoffs.json`  | `collegeCode, branch, branchName, category, round, year, closingRank`  |
+| `taxonomy.json` | `year, source, categories, branches, rounds, cities, collegeTypes`     |
 
-Two ways to produce them:
+The cut-offs are **genuine KCET-2025** figures — KEA's published _UGCET-2025
+round-wise allotment cut-off ranks_ (Rest of Karnataka), Rounds 1–3, parsed
+straight from the official PDFs.
+
+### Regenerating the dataset
+
+Drop KEA's round PDFs into `scraper/raw/` (`round1.pdf`, `round2.pdf`, `round3.pdf`) and run:
 
 ```bash
-npm run seed     # generate a realistic SAMPLE dataset from scraper/colleges-base.json
-npm run scrape   # convert real KEA cutoff exports → dataset (see scraper/README.md)
+npm run data     # parse the PDFs → public/data/{colleges,cutoffs,taxonomy}.json
 ```
 
-`npm run build` runs `seed` automatically so the app always builds with data.
+The PDFs are rotated, multi-column tables. `scraper/parse-kea-pdf.mjs` de-rotates
+them with pdfjs and reads the grid by coordinates; `scraper/canonical-branches.mjs`
+folds KEA's ~140 course-name spellings into stable branch codes; and
+`scraper/build-kea-dataset.mjs` writes the dataset. The source PDFs are not
+committed (and aren't needed to build — only to regenerate).
 
-> ⚠️ The seed dataset is **indicative sample data** for guidance/demo only.
-> Replace it with real KEA cutoffs via `npm run scrape` before relying on it.
-> Always verify against official KEA results at cetonline.karnataka.gov.in.
+> Notes: includes **Rounds 1–3** engineering data. The PDFs carry no fees or
+> ownership type, so fees are omitted and college **type** (Government/Private)
+> is a best-effort heuristic. Always verify against official KEA results at
+> cetonline.karnataka.gov.in.
 
 ## Develop
 
@@ -62,8 +72,8 @@ npm run dev      # http://localhost:3000
 npm run build && npm run start
 ```
 
-Deploys to Vercel as-is (zero config). The `build` step regenerates the dataset,
-prerenders every college and branch page, and exposes the API routes.
+Deploys to Vercel as-is (zero config). The build prerenders every college and
+branch page from the committed dataset and exposes the API routes.
 
 ## Eligibility logic
 

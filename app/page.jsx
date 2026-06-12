@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { getTaxonomy, getColleges, dataYear } from "@/lib/data";
 import { PredictForm } from "@/components/PredictForm";
+import { JsonLd } from "@/components/JsonLd";
 
 export default function HomePage() {
   const taxonomy = getTaxonomy();
@@ -23,12 +24,45 @@ export default function HomePage() {
     { value: taxonomy.categories.length, label: "Categories" },
   ];
 
+  const faqs = [
+    {
+      q: "How does the KCET college predictor work?",
+      a: "Enter your KCET rank and category. We compare it against KEA's official 2025 round-wise closing ranks and instantly list the Karnataka engineering colleges and branches you can get, sorted Safe, Target and Reach.",
+    },
+    {
+      q: "Are these KCET cutoffs official?",
+      a: "Yes — the closing ranks are KEA's published UGCET-2025 round-wise allotment cutoffs (Rounds 1–3, Rest of Karnataka). Always cross-check the official KEA site before locking your option entry.",
+    },
+    {
+      q: "Which engineering colleges can I get with my KCET rank?",
+      a: `Use the predictor above to see every eligible college and branch across ${colleges.length} Karnataka engineering colleges for your exact rank and category.`,
+    },
+    {
+      q: "What KCET rank is needed for CSE or top colleges?",
+      a: "It varies by college and round — top colleges such as RVCE and UVCE close Computer Science within the few-hundreds-to-few-thousands rank range for General Merit. Open any college page for branch-wise 2025 closing ranks.",
+    },
+    {
+      q: "Is the KCET College Finder free?",
+      a: "Yes, it's completely free to use — no login or KCET registration number required.",
+    },
+  ];
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <div className="relative overflow-hidden">
       {/* ── Hero ── */}
       <section className="mx-auto max-w-2xl px-6 pt-14 pb-8 text-center sm:pt-20">
         <span className="font-mono text-xs font-semibold uppercase tracking-[0.15em] text-gradient">
-          KCET {year} · College Finder
+          KCET 2026 · College Finder
         </span>
 
         <h1 className="mt-5 text-[2.5rem] font-semibold leading-[1.05] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
@@ -121,11 +155,11 @@ export default function HomePage() {
             grad="grad-card-2"
             icon={Building2}
             title="Search colleges"
-            desc="Look up any college — all branches, category-wise cutoffs and fees."
+            desc="Look up any college — all branches and category-wise closing ranks."
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/90 px-4 py-2 text-xs font-medium text-[#1e293b] shadow-sm">
               <Search className="size-3.5 text-muted-foreground" />
-              Search 27 colleges…
+              Search {colleges.length} colleges…
             </span>
           </FeatureCard>
 
@@ -134,7 +168,7 @@ export default function HomePage() {
             grad="grad-card-3"
             icon={GitCompareArrows}
             title="Compare colleges"
-            desc="Put two colleges side by side on cutoffs and fees before you decide."
+            desc="Put two colleges side by side on closing ranks before you decide."
           >
             <div className="flex items-center gap-2">
               <span className="rounded-xl border border-black/10 bg-white/90 px-3 py-1.5 text-xs font-semibold text-[#1e293b] shadow-sm">
@@ -168,6 +202,37 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── FAQ ── */}
+      <section className="mx-auto max-w-3xl px-6 pb-20">
+        <h2 className="mb-2 text-center text-sm font-semibold uppercase tracking-[0.15em] text-gradient">
+          FAQ
+        </h2>
+        <p className="mb-8 text-center text-2xl font-semibold tracking-tight sm:text-3xl">
+          KCET college finder{" "}
+          <span className="font-serif font-normal italic">questions</span>
+        </p>
+        <div className="space-y-3">
+          {faqs.map((f) => (
+            <details
+              key={f.q}
+              className="group rounded-2xl border border-border bg-card-soft p-5 shadow-sm"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-3 font-semibold">
+                {f.q}
+                <span className="grid size-6 shrink-0 place-items-center rounded-full bg-card text-muted-foreground transition-transform duration-200 group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                {f.a}
+              </p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <JsonLd data={faqJsonLd} />
     </div>
   );
 }

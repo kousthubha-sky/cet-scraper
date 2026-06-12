@@ -11,7 +11,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Select } from "@/components/ui/select";
-import { formatRank, formatFees } from "@/lib/format";
+import { formatRank } from "@/lib/format";
 
 /**
  * Category + round switcher over a fixed set of cutoff rows.
@@ -73,8 +73,7 @@ export function CutoffExplorer({ rows, taxonomy, groupBy = "college" }) {
               ) : (
                 <TableHead>Branch</TableHead>
               )}
-              <TableHead className="text-center">Closing rank</TableHead>
-              <TableHead className="text-right">Fees/yr</TableHead>
+              <TableHead className="text-right">Closing rank</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -111,10 +110,9 @@ export function CutoffExplorer({ rows, taxonomy, groupBy = "college" }) {
                     </Link>
                   </TableCell>
                 )}
-                <TableCell className="text-center font-mono font-bold text-primary">
+                <TableCell className="text-right font-mono font-bold text-primary">
                   {formatRank(r.closingRank)}
                 </TableCell>
-                <TableCell className="text-right text-sm">{formatFees(r.fees)}</TableCell>
               </TableRow>
             ))}
           </TableBody>

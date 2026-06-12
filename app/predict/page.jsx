@@ -5,9 +5,10 @@ import { PredictResults } from "@/components/PredictResults";
 import { ordinal } from "@/lib/format";
 
 export const metadata = {
-  title: "Predict your colleges by KCET rank",
+  title: "KCET College Predictor — Colleges by Your Rank",
   description:
-    "Enter your KCET rank and category to see Karnataka engineering colleges and branches you can realistically get, classified Safe, Target and Reach.",
+    "Enter your KCET rank and category to see Karnataka engineering colleges and branches you can realistically get, classified Safe, Target and Reach (KEA 2025 cutoffs).",
+  alternates: { canonical: "/predict" },
 };
 
 export default async function PredictPage({ searchParams }) {
@@ -17,7 +18,7 @@ export default async function PredictPage({ searchParams }) {
 
   const rank = parseInt(sp.rank, 10) || null;
   const category = sp.category || "GM";
-  const round = sp.round || "R1";
+  const round = sp.round || taxonomy.rounds[0]?.code || "R2";
 
   const matches = rank
     ? predict(getCutoffs(), { rank, category, round })

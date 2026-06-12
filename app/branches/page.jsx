@@ -4,9 +4,10 @@ import { getCutoffs, getTaxonomy, dataYear } from "@/lib/data";
 import { formatRank } from "@/lib/format";
 
 export const metadata = {
-  title: "Explore engineering branches",
+  title: "KCET Engineering Branches & 2025 Cutoffs",
   description:
-    "Browse all KCET engineering branches — CSE, ECE, AI/ML, Mechanical and more — with the number of colleges and GM cutoff range for each.",
+    "Browse all KCET engineering branches — CSE, ECE, AI/ML, Mechanical and more — with the number of colleges and GM closing-rank range for each (KEA 2025).",
+  alternates: { canonical: "/branches" },
 };
 
 export default function BranchesPage() {

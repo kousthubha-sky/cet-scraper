@@ -12,7 +12,9 @@ export function PredictForm({ taxonomy, defaults = {}, compact = false }) {
   const router = useRouter();
   const [rank, setRank] = useState(defaults.rank || "");
   const [category, setCategory] = useState(defaults.category || "GM");
-  const [round, setRound] = useState(defaults.round || "R1");
+  const [round, setRound] = useState(
+    defaults.round || taxonomy.rounds[0]?.code || "R2"
+  );
 
   const submit = (e) => {
     e.preventDefault();

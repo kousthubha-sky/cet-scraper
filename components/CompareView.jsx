@@ -13,7 +13,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Select } from "@/components/ui/select";
-import { formatRank, formatFees } from "@/lib/format";
+import { formatRank } from "@/lib/format";
 import { cn } from "@/lib/utils";
 
 export function CompareView({ colleges, colA, colB, taxonomy }) {
@@ -179,7 +179,7 @@ function PickerCard({ label, college, children }) {
       {children}
       {college && (
         <p className="mt-2 text-xs text-muted-foreground">
-          {college.name} · {college.type} · {formatFees(college.fees)}/yr
+          {college.name} · {college.type}
         </p>
       )}
     </div>

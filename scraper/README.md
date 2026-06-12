@@ -1,40 +1,44 @@
 # Scraper / data pipeline
 
-Two scripts produce the dataset the app reads from `public/data/`.
+Turns KEA's official KCET (UGCET) **engineering** round-wise allotment cut-off
+PDFs into the dataset the app reads from `public/data/`. This is genuine
+KCET-2025 data (Rest of Karnataka seat type).
 
-## `build-seed.mjs` — sample data (`npm run seed`)
+## Run
 
-Expands `colleges-base.json` (a curated list of Karnataka colleges with an
-anchor GM-CSE rank each) into full cutoffs across branches, categories and
-rounds using branch-difficulty and category-reservation multipliers. Edit
-`colleges-base.json` to add colleges or tune anchor ranks, then re-run.
-
-**This is sample data for demo/guidance only.**
-
-## `scrape-kea.mjs` — real data (`npm run scrape`)
-
-KEA publishes category-wise cutoff ranks per round at
-`cetonline.karnataka.gov.in` / `kea.kar.nic.in` (per-round PDFs / HTML tables).
-Formats change yearly, so this script is built around a pluggable source that
-returns rows in the dataset schema. Out of the box it reads a clean CSV:
+Put KEA's round PDFs in `scraper/raw/` as `round1.pdf`, `round2.pdf` and
+`round3.pdf`, then:
 
 ```bash
-# from a local file
-SOURCE_FILE="./scraper/raw/round1.csv" npm run scrape
-
-# from a URL
-SOURCE_URL="https://example.com/kcet-2025-round1.csv" npm run scrape
+npm run data
 ```
 
-Expected CSV header (case-insensitive):
+Override paths with `KEA_R2_PDF` / `KEA_R3_PDF` if the files live elsewhere (the
+Desktop is also checked as a fallback). Source PDFs are gitignored — the
+generated JSON in `public/data/` is what's committed.
 
-```
-collegeCode,collegeName,short,city,collegeType,branch,branchName,category,round,year,closingRank,fees
-```
+## How it works
 
-### Adapting to PDF/HTML sources
+KEA's cut-off PDFs are A4 pages **rotated 90°**, holding a wide
+college × branch × category grid. Cells wrap across text lines, so plain text
+extraction is unreliable — we read the geometry instead.
 
-Replace `getSource()` / `parseCSV()` with a parser for your source (e.g.
-`pdf-parse` for KEA PDFs or `cheerio` for HTML tables) that returns the same row
-objects, then `normalise()` and the writers handle the rest. The college meta
-list and taxonomy are derived automatically from the scraped rows.
+- **`parse-kea-pdf.mjs`** — loads each PDF with `pdfjs-dist`, de-rotates via the
+  page viewport transform, groups text into rows by y, fixes the 28 category
+  columns from the header row, and assigns each numeric cell to its category by
+  nearest column centre. A branch row is a full grid line (~28 cells, `--` =
+  no allotment); wrapped branch names on the lines below are appended.
+- **`canonical-branches.mjs`** — folds KEA's ~140 raw course-name spellings (and
+  pdfjs' intra-word-space artifacts like `COMMUNICATIO N`) into stable branch
+  codes + clean display names, matching a despaced key with ordered rules.
+- **`build-kea-dataset.mjs`** — runs the parser over each round, classifies
+  branches, cleans college names / detects city / derives a short code, dedupes
+  to one row per (college, branch, category, round), and writes
+  `colleges.json`, `cutoffs.json`, `taxonomy.json`.
+
+## Caveats
+
+- Includes **Rounds 1–3** (engineering), "Rest of Karnataka" seat type.
+- The PDFs carry **no fees or ownership type**: fees are omitted; college `type`
+  (Government/Private) is a best-effort heuristic from the name.
+- Always verify against official KEA results at `cetonline.karnataka.gov.in`.

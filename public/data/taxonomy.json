@@ -1,5 +1,6 @@
 {
   "year": 2025,
+  "source": "KEA UGCET-2025 round-wise allotment cut-off ranks (Rest of Karnataka)",
   "categories": [
     {
       "code": "GM",
@@ -32,6 +33,70 @@
     {
       "code": "STG",
       "name": "Scheduled Tribe"
+    },
+    {
+      "code": "GMR",
+      "name": "General Merit (Rural)"
+    },
+    {
+      "code": "1R",
+      "name": "Category 1 (Rural)"
+    },
+    {
+      "code": "2AR",
+      "name": "Category 2A (Rural)"
+    },
+    {
+      "code": "2BR",
+      "name": "Category 2B (Rural)"
+    },
+    {
+      "code": "3AR",
+      "name": "Category 3A (Rural)"
+    },
+    {
+      "code": "3BR",
+      "name": "Category 3B (Rural)"
+    },
+    {
+      "code": "SCR",
+      "name": "Scheduled Caste (Rural)"
+    },
+    {
+      "code": "STR",
+      "name": "Scheduled Tribe (Rural)"
+    },
+    {
+      "code": "GMK",
+      "name": "General Merit (Kannada)"
+    },
+    {
+      "code": "1K",
+      "name": "Category 1 (Kannada)"
+    },
+    {
+      "code": "2AK",
+      "name": "Category 2A (Kannada)"
+    },
+    {
+      "code": "2BK",
+      "name": "Category 2B (Kannada)"
+    },
+    {
+      "code": "3AK",
+      "name": "Category 3A (Kannada)"
+    },
+    {
+      "code": "3BK",
+      "name": "Category 3B (Kannada)"
+    },
+    {
+      "code": "SCK",
+      "name": "Scheduled Caste (Kannada)"
+    },
+    {
+      "code": "STK",
+      "name": "Scheduled Tribe (Kannada)"
     }
   ],
   "branches": [
@@ -44,8 +109,16 @@
       "name": "Information Science & Engineering"
     },
     {
+      "code": "IT",
+      "name": "Information Technology"
+    },
+    {
       "code": "AI",
-      "name": "Artificial Intelligence & ML"
+      "name": "Artificial Intelligence & Machine Learning"
+    },
+    {
+      "code": "AD",
+      "name": "Artificial Intelligence & Data Science"
     },
     {
       "code": "DS",
@@ -56,16 +129,40 @@
       "name": "Computer Science (Cyber Security)"
     },
     {
+      "code": "IOT",
+      "name": "Computer Science (IoT & Block Chain)"
+    },
+    {
+      "code": "CB",
+      "name": "Computer Science & Business Systems"
+    },
+    {
+      "code": "CD",
+      "name": "Computer Science & Design"
+    },
+    {
       "code": "EC",
-      "name": "Electronics & Communication"
+      "name": "Electronics & Communication Engineering"
     },
     {
       "code": "EE",
-      "name": "Electrical & Electronics"
+      "name": "Electrical & Electronics Engineering"
     },
     {
       "code": "EI",
-      "name": "Electronics & Instrumentation"
+      "name": "Electronics & Instrumentation Engineering"
+    },
+    {
+      "code": "ET",
+      "name": "Electronics & Telecommunication Engineering"
+    },
+    {
+      "code": "EV",
+      "name": "Electronics Engineering (VLSI & Embedded)"
+    },
+    {
+      "code": "ECM",
+      "name": "Electronics & Computer Engineering"
     },
     {
       "code": "ME",
@@ -76,16 +173,76 @@
       "name": "Civil Engineering"
     },
     {
-      "code": "BT",
-      "name": "Biotechnology"
-    },
-    {
       "code": "CH",
       "name": "Chemical Engineering"
     },
     {
       "code": "AE",
       "name": "Aeronautical Engineering"
+    },
+    {
+      "code": "AS",
+      "name": "Aerospace Engineering"
+    },
+    {
+      "code": "BT",
+      "name": "Biotechnology"
+    },
+    {
+      "code": "BM",
+      "name": "Biomedical & Medical Electronics"
+    },
+    {
+      "code": "RA",
+      "name": "Robotics & Automation"
+    },
+    {
+      "code": "IM",
+      "name": "Industrial Engineering & Management"
+    },
+    {
+      "code": "AU",
+      "name": "Automobile Engineering"
+    },
+    {
+      "code": "MT",
+      "name": "Mechatronics Engineering"
+    },
+    {
+      "code": "AG",
+      "name": "Agriculture Engineering"
+    },
+    {
+      "code": "EN",
+      "name": "Environmental Engineering"
+    },
+    {
+      "code": "MN",
+      "name": "Mining Engineering"
+    },
+    {
+      "code": "MR",
+      "name": "Marine Engineering"
+    },
+    {
+      "code": "PL",
+      "name": "Polymer Science & Technology"
+    },
+    {
+      "code": "CER",
+      "name": "Ceramics & Cement Technology"
+    },
+    {
+      "code": "TX",
+      "name": "Textiles & Silk Technology"
+    },
+    {
+      "code": "MC",
+      "name": "Mathematics & Computing"
+    },
+    {
+      "code": "OTH",
+      "name": "Other Programs"
     }
   ],
   "rounds": [
@@ -98,27 +255,47 @@
       "name": "Round 2"
     },
     {
-      "code": "EXT",
-      "name": "Extended Round"
+      "code": "R3",
+      "name": "Round 3"
     }
   ],
   "cities": [
-    "Bagalkot",
-    "Bengaluru",
-    "Davangere",
+    "Bagalkote",
+    "Bangalore",
+    "Belgaum",
+    "Bellary",
+    "Bidar",
+    "Bijapur",
+    "Chamarajanagar",
+    "Chickballapur",
+    "Chikmagalur",
+    "Chitradurga",
+    "Dakshina Kannada",
+    "Davanagere",
     "Dharwad",
+    "Doddaballapur",
+    "Gadag",
+    "Gulbarga",
     "Hassan",
-    "Hubballi",
-    "Kalaburagi",
-    "Mangaluru",
-    "Mysuru",
-    "Shivamogga",
-    "Tumakuru",
-    "Udupi"
+    "Haveri",
+    "Hubli",
+    "Karnataka",
+    "Kodagu",
+    "Kolar",
+    "Koppal",
+    "Mandya",
+    "Mangalore",
+    "Mysore",
+    "Raichur",
+    "Ramanagara",
+    "Shimoga",
+    "Tumkur",
+    "Udupi",
+    "Uttara Kannada",
+    "Yadgiri"
   ],
   "collegeTypes": [
     "Government",
-    "Aided",
     "Private"
   ]
 }

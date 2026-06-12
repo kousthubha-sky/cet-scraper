@@ -1,218 +1,1605 @@
 [
   {
     "code": "E001",
-    "name": "University Visvesvaraya College of Engineering, Bangalore",
+    "name": "University of Visvesvaraya College of Engineering",
     "short": "UVCE",
-    "city": "Bengaluru",
-    "type": "Government",
-    "fees": 45000
+    "city": "Bangalore",
+    "type": "Government"
+  },
+  {
+    "code": "E002",
+    "name": "Govt.S K S J T Institute of Engineering",
+    "short": "GKJTIE",
+    "city": "Bangalore",
+    "type": "Government"
+  },
+  {
+    "code": "E003",
+    "name": "B M S College of Engineering",
+    "short": "BMCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E004",
+    "name": "Dr. Ambedkar Institute of Technology",
+    "short": "AIT",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E005",
-    "name": "R V College of Engineering, Bangalore",
+    "name": "R. V. College of Engineering",
     "short": "RVCE",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E006",
+    "name": "M S Ramaiah Institute of Technology",
+    "short": "MRIT",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E007",
-    "name": "B M S College of Engineering, Bangalore",
-    "short": "BMSCE",
-    "city": "Bengaluru",
-    "type": "Aided",
-    "fees": 85000
+    "name": "Dayananda Sagar College of Engineering",
+    "short": "DSCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E008",
+    "name": "Bangalore Institute of Technology",
+    "short": "BIT",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E009",
-    "name": "M S Ramaiah Institute of Technology, Bangalore",
-    "short": "MSRIT",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "PES University",
+    "short": "PU",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E011",
-    "name": "Dayananda Sagar College of Engineering, Bangalore",
-    "short": "DSCE",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "M V J College of Engineering",
+    "short": "MVJCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E012",
+    "name": "Sir M.Visvesvaraya Institute of Technology",
+    "short": "SMVIT",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E013",
-    "name": "Bangalore Institute of Technology, Bangalore",
-    "short": "BIT",
-    "city": "Bengaluru",
-    "type": "Aided",
-    "fees": 85000
+    "name": "Ghousia Engineering College",
+    "short": "GEC",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E014",
+    "name": "S J C Institute of Technology",
+    "short": "JCIT",
+    "city": "Chickballapur",
+    "type": "Private"
   },
   {
     "code": "E015",
-    "name": "Sir M Visvesvaraya Institute of Technology, Bangalore",
-    "short": "Sir MVIT",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "Dr.T.Thimmaiah Institute of Technology",
+    "short": "TTIT",
+    "city": "Kolar",
+    "type": "Private"
+  },
+  {
+    "code": "E016",
+    "name": "Siddaganga Institute of Technology",
+    "short": "SIT",
+    "city": "Tumkur",
+    "type": "Private"
   },
   {
     "code": "E017",
-    "name": "BMS Institute of Technology and Management, Bangalore",
-    "short": "BMSIT",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "Sri Siddhartha Institute of Technology",
+    "short": "SSIT",
+    "city": "Tumkur",
+    "type": "Private"
   },
   {
-    "code": "E019",
-    "name": "RNS Institute of Technology, Bangalore",
-    "short": "RNSIT",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "code": "E018",
+    "name": "Kalpatharu Institute of Technology",
+    "short": "KIT",
+    "city": "Hassan",
+    "type": "Private"
   },
   {
     "code": "E021",
-    "name": "CMR Institute of Technology, Bangalore",
-    "short": "CMRIT",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "Sri Jayachamarajendra College of Engineering",
+    "short": "SJCE",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E022",
+    "name": "The National Institute of Engineering",
+    "short": "NIE",
+    "city": "Mysore",
+    "type": "Private"
   },
   {
     "code": "E023",
-    "name": "Global Academy of Technology, Bangalore",
-    "short": "GAT",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "P E S College of Engineering",
+    "short": "PECE",
+    "city": "Mandya",
+    "type": "Private"
   },
   {
-    "code": "E025",
-    "name": "Acharya Institute of Technology, Bangalore",
+    "code": "E024",
+    "name": "Malnad College of Engineering",
+    "short": "MCE",
+    "city": "Hassan",
+    "type": "Private"
+  },
+  {
+    "code": "E028",
+    "name": "Tontadarya College of Engineering",
+    "short": "TCE",
+    "city": "Gadag",
+    "type": "Private"
+  },
+  {
+    "code": "E029",
+    "name": "Maratha Mandal Engineering College",
+    "short": "MMEC",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E031",
+    "name": "B V V Sangha`s Basaveshwara Engineering College",
+    "short": "BVVSBE",
+    "city": "Bagalkote",
+    "type": "Private"
+  },
+  {
+    "code": "E032",
+    "name": "R.T.E. Society's Rural Engineering College",
+    "short": "RTESRE",
+    "city": "Gadag",
+    "type": "Private"
+  },
+  {
+    "code": "E033",
+    "name": "Sri Taralabalu Jagadguru Institute of Technology",
+    "short": "STJIT",
+    "city": "Haveri",
+    "type": "Private"
+  },
+  {
+    "code": "E034",
+    "name": "SDM College of Engineering",
+    "short": "SCE",
+    "city": "Dharwad",
+    "type": "Private"
+  },
+  {
+    "code": "E035",
+    "name": "Anjuman Institute of Technology & Management",
+    "short": "AITM",
+    "city": "Uttara Kannada",
+    "type": "Private"
+  },
+  {
+    "code": "E036",
+    "name": "K L E Technological University",
+    "short": "KLETU",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E037",
+    "name": "K.L.S. Gogte Institute of Technology",
+    "short": "KLGIT",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E038",
+    "name": "BLDEA's VP. Dr.P.G. Hallakatti College of Engineering &",
+    "short": "BVPGHC",
+    "city": "Bijapur",
+    "type": "Private"
+  },
+  {
+    "code": "E040",
+    "name": "Hira Sugar Institute of Technology",
+    "short": "HSIT",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E041",
+    "name": "P D A College of Engineering",
+    "short": "PDCE",
+    "city": "Gulbarga",
+    "type": "Private"
+  },
+  {
+    "code": "E042",
+    "name": "Khaja Bandanawaz University KBN University Street",
+    "short": "KBUKUS",
+    "city": "Gulbarga",
+    "type": "Private"
+  },
+  {
+    "code": "E043",
+    "name": "Gurunanak Dev Engineering College",
+    "short": "GDEC",
+    "city": "Bidar",
+    "type": "Private"
+  },
+  {
+    "code": "E044",
+    "name": "Bheemanna Khandre Institute of Technology",
+    "short": "BKIT",
+    "city": "Bidar",
+    "type": "Private"
+  },
+  {
+    "code": "E045",
+    "name": "Rao Bahadur Y.Mahabaleswarappa Engineering College",
+    "short": "RBYMEC",
+    "city": "Bellary",
+    "type": "Private"
+  },
+  {
+    "code": "E046",
+    "name": "H K E's Society's Sir M Visvesvaraya College of Engineering",
+    "short": "HKESSM",
+    "city": "Raichur",
+    "type": "Government"
+  },
+  {
+    "code": "E047",
+    "name": "Malnad College of Engineering",
+    "short": "MCE",
+    "city": "Hassan",
+    "type": "Private"
+  },
+  {
+    "code": "E048",
+    "name": "B M S College of Engineering",
+    "short": "BMCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E049",
+    "name": "B V V Sangha`s Basaveshwara Engineering College",
+    "short": "BVVSBE",
+    "city": "Bagalkote",
+    "type": "Private"
+  },
+  {
+    "code": "E054",
+    "name": "K V G College of Engineering",
+    "short": "KVGCE",
+    "city": "Dakshina Kannada",
+    "type": "Private"
+  },
+  {
+    "code": "E055",
+    "name": "P A College of Engineering",
+    "short": "PCE",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E056",
+    "name": "The National Institute of Engineering",
+    "short": "NIE",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E057",
+    "name": "JSS Science and Technology University JSS",
+    "short": "JSTUJ",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E058",
+    "name": "P E S College of Engineering",
+    "short": "PECE",
+    "city": "Mandya",
+    "type": "Private"
+  },
+  {
+    "code": "E059",
+    "name": "P D A College of Engineering",
+    "short": "PDCE",
+    "city": "Gulbarga",
+    "type": "Private"
+  },
+  {
+    "code": "E060",
+    "name": "Dr. Ambedkar Institute of Technology",
     "short": "AIT",
-    "city": "Bengaluru",
-    "type": "Private",
-    "fees": 215000
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E061",
+    "name": "University B.D.T College of Engineering",
+    "short": "UBDTCE",
+    "city": "Davanagere",
+    "type": "Government"
+  },
+  {
+    "code": "E062",
+    "name": "Bapuji Institute of Engineering & Technology",
+    "short": "BIET",
+    "city": "Davanagere",
+    "type": "Private"
+  },
+  {
+    "code": "E063",
+    "name": "S J M Institute of Technology",
+    "short": "JMIT",
+    "city": "Chitradurga",
+    "type": "Private"
+  },
+  {
+    "code": "E064",
+    "name": "Adhichunchanagiri Institute of Technology",
+    "short": "AIT",
+    "city": "Chikmagalur",
+    "type": "Private"
+  },
+  {
+    "code": "E065",
+    "name": "Jawaharlal Nehru New College of Engineering",
+    "short": "JNNCE",
+    "city": "Shimoga",
+    "type": "Private"
+  },
+  {
+    "code": "E066",
+    "name": "University B.D.T. college of Engineering",
+    "short": "UBDTCE",
+    "city": "Davanagere",
+    "type": "Government"
+  },
+  {
+    "code": "E070",
+    "name": "Bahubali College of Engineering",
+    "short": "BCE",
+    "city": "Hassan",
+    "type": "Private"
+  },
+  {
+    "code": "E071",
+    "name": "Vidya Vardhaka College of Engineering",
+    "short": "VVCE",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E075",
+    "name": "Ballari Institute of Technology & Management",
+    "short": "BITM",
+    "city": "Bellary",
+    "type": "Private"
+  },
+  {
+    "code": "E076",
+    "name": "Proudadevaraya Institute of Technology",
+    "short": "PIT",
+    "city": "Bellary",
+    "type": "Private"
+  },
+  {
+    "code": "E077",
+    "name": "Vidya Vikas Institute of Engineering & Technology",
+    "short": "VVIET",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E078",
+    "name": "The Oxford College of Engineering",
+    "short": "OCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E079",
+    "name": "Acharya Institute of Technology",
+    "short": "AIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E081",
+    "name": "SRI Siddhartha School of Engineering",
+    "short": "SSSE",
+    "city": "Tumkur",
+    "type": "Private"
+  },
+  {
+    "code": "E082",
+    "name": "J S S Academy of Technical Education",
+    "short": "JATE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E083",
+    "name": "H.K.B.K.College of Engineering",
+    "short": "HKBKCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E085",
+    "name": "APS College of Engineering",
+    "short": "ACE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E086",
+    "name": "Sri Sairam College Of Engineering",
+    "short": "SSCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E087",
+    "name": "Vivekananada Institute of Technology",
+    "short": "VIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E090",
+    "name": "Sri Revana Siddeswara Institute of Technology",
+    "short": "SRSIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E091",
+    "name": "K S Institute of Technology",
+    "short": "KIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E092",
+    "name": "Vemana Institute of Technology",
+    "short": "VIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E093",
+    "name": "Basavakalyana Engineering College",
+    "short": "BEC",
+    "city": "Bidar",
+    "type": "Private"
+  },
+  {
+    "code": "E094",
+    "name": "Coorg Institute of Technology",
+    "short": "CIT",
+    "city": "Kodagu",
+    "type": "Private"
+  },
+  {
+    "code": "E095",
+    "name": "AMC Engineering College",
+    "short": "AEC",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E096",
+    "name": "East Point College of Engineering & Technology",
+    "short": "EPCET",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E097",
+    "name": "C M R Institute of Technology",
+    "short": "CMRIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E098",
+    "name": "Atria Institute of Technology",
+    "short": "AIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E099",
+    "name": "New Horizon College of Engineering",
+    "short": "NHCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E100",
+    "name": "K N S Institute of Technology",
+    "short": "KNIT",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E101",
-    "name": "JSS Science and Technology University (SJCE), Mysuru",
-    "short": "SJCE",
-    "city": "Mysuru",
-    "type": "Private",
-    "fees": 215000
+    "name": "Channabasaveshwara Institute of Technology",
+    "short": "CIT",
+    "city": "Tumkur",
+    "type": "Private"
+  },
+  {
+    "code": "E102",
+    "name": "DONBOSCO Institute of Technology",
+    "short": "DIT",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E103",
-    "name": "The National Institute of Engineering, Mysuru",
-    "short": "NIE",
-    "city": "Mysuru",
-    "type": "Aided",
-    "fees": 85000
+    "name": "Global Academy of Technology",
+    "short": "GAT",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
-    "code": "E105",
-    "name": "Vidyavardhaka College of Engineering, Mysuru",
-    "short": "VVCE",
-    "city": "Mysuru",
-    "type": "Private",
-    "fees": 215000
+    "code": "E104",
+    "name": "Nagarjuna College of Engineering & Technology",
+    "short": "NCET",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E106",
+    "name": "East West Institute Of Technology",
+    "short": "EWIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E107",
+    "name": "B N M Institute of Technology",
+    "short": "BNMIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E108",
+    "name": "SAPTHAGIRI NPS University",
+    "short": "SNU",
+    "city": "Karnataka",
+    "type": "Private"
+  },
+  {
+    "code": "E109",
+    "name": "City Engineering College",
+    "short": "CEC",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E111",
+    "name": "Sri Venkateshwara College of Engineering",
+    "short": "SVCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E112",
+    "name": "Sri Krishna Institute of Technology",
+    "short": "SKIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E113",
+    "name": "Sambhram Institute of Technology",
+    "short": "SIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E114",
+    "name": "G M Institute of Technology",
+    "short": "GMIT",
+    "city": "Davanagere",
+    "type": "Private"
+  },
+  {
+    "code": "E115",
+    "name": "S.J B. Institute of Technology",
+    "short": "JBIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E116",
+    "name": "R.L.Jalappa Institute of Technology",
+    "short": "RLJIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E118",
+    "name": "RNS Institute of Technology",
+    "short": "RIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E119",
+    "name": "K C T Engineering College",
+    "short": "KCTEC",
+    "city": "Gulbarga",
+    "type": "Private"
+  },
+  {
+    "code": "E120",
+    "name": "Jnanavikasa Institute of Technology",
+    "short": "JIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E121",
+    "name": "Vivekananada College of Engineering Technology",
+    "short": "VCET",
+    "city": "Dakshina Kannada",
+    "type": "Private"
+  },
+  {
+    "code": "E123",
+    "name": "Canara Engineering College Bantwal",
+    "short": "CECB",
+    "city": "Dakshina Kannada",
+    "type": "Private"
+  },
+  {
+    "code": "E124",
+    "name": "Rajiv Gandhi Institute of Technology",
+    "short": "RGIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E126",
+    "name": "B M S Institute of Technology & Management",
+    "short": "BMITM",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E127",
+    "name": "M S Engineering College",
+    "short": "MEC",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E128",
+    "name": "Sharanbasava University",
+    "short": "SU",
+    "city": "Gulbarga",
+    "type": "Private"
+  },
+  {
+    "code": "E129",
+    "name": "St.Joseph Engineering College",
+    "short": "SJEC",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E130",
+    "name": "Shridevi Institute of Engineering & Technology",
+    "short": "SIET",
+    "city": "Tumkur",
+    "type": "Private"
+  },
+  {
+    "code": "E132",
+    "name": "Secab Institute of Engineering & Technology",
+    "short": "SIET",
+    "city": "Bijapur",
+    "type": "Private"
+  },
+  {
+    "code": "E133",
+    "name": "G S S S Institute of Engineering & Technology for Women",
+    "short": "GIETW",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E134",
+    "name": "Smt. Kamala & Sri Venkappa M.Agadi College of Engineering &",
+    "short": "SKSVMA",
+    "city": "Gadag",
+    "type": "Private"
+  },
+  {
+    "code": "E135",
+    "name": "K L S Viswanathrao Deshpande Institute of Technology",
+    "short": "KLVDIT",
+    "city": "Uttara Kannada",
+    "type": "Private"
+  },
+  {
+    "code": "E136",
+    "name": "Moodalakatte Institute of Technology",
+    "short": "MIT",
+    "city": "Udupi",
+    "type": "Private"
+  },
+  {
+    "code": "E139",
+    "name": "Impact College of Engineering & Applied Sciences",
+    "short": "ICEAS",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E141",
+    "name": "PES University",
+    "short": "PU",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E142",
+    "name": "Adhichunchanagiri University",
+    "short": "AU",
+    "city": "Mandya",
+    "type": "Private"
+  },
+  {
+    "code": "E144",
+    "name": "Srinivas Institute of Technology",
+    "short": "SIT",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E145",
+    "name": "Rajarajeswari College of Engineering",
+    "short": "RCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E146",
+    "name": "Shreedevi Institute of Technology",
+    "short": "SIT",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E147",
+    "name": "T.John Institute of technology",
+    "short": "TJIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E149",
+    "name": "Cambridge Institute of Technology",
+    "short": "CIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E150",
+    "name": "P E S Institute of Technology & Management",
+    "short": "PEITM",
+    "city": "Shimoga",
+    "type": "Private"
+  },
+  {
+    "code": "E151",
+    "name": "Mangalore Institute of Technology & Engineering",
+    "short": "MITE",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E152",
+    "name": "S D M Institute of Tech.",
+    "short": "DMIT",
+    "city": "Dakshina Kannada",
+    "type": "Private"
+  },
+  {
+    "code": "E153",
+    "name": "S E A College of Engineering & Technology",
+    "short": "ECET",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E154",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Chamarajanagar",
+    "type": "Government"
+  },
+  {
+    "code": "E155",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Hassan",
+    "type": "Government"
+  },
+  {
+    "code": "E156",
+    "name": "K R PET Krishna",
+    "short": "KRPK",
+    "city": "Mandya",
+    "type": "Government"
+  },
+  {
+    "code": "E157",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Ramanagara",
+    "type": "Government"
+  },
+  {
+    "code": "E158",
+    "name": "Maharaja Institute of Technology Mysore",
+    "short": "MITM",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E159",
+    "name": "Karavali Institute of Technology",
+    "short": "KIT",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E160",
+    "name": "Sahyadri College Of Engineering & Management",
+    "short": "SCEM",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E161",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Karnataka",
+    "type": "Government"
+  },
+  {
+    "code": "E162",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Raichur",
+    "type": "Government"
+  },
+  {
+    "code": "E163",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Haveri",
+    "type": "Government"
+  },
+  {
+    "code": "E164",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Karnataka",
+    "type": "Government"
+  },
+  {
+    "code": "E165",
+    "name": "Yenepoya Institute Of Technology",
+    "short": "YIT",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E167",
+    "name": "K L E S's K L E College of Engineering & Technology",
+    "short": "KLEKLE",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E168",
+    "name": "Amrutha Institute of Engineering & Management Science",
+    "short": "AIEMS",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E169",
+    "name": "Alva's Institute of Engineering & Technology",
+    "short": "AIET",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E171",
+    "name": "Brindavan College of Engineering",
+    "short": "BCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E172",
+    "name": "R.R. Institute of Technology",
+    "short": "RRIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E173",
+    "name": "Sai Vidya Institute of Technology",
+    "short": "SVIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E174",
+    "name": "Dr. Sri Sri Sri Shivakumara Mahaswamyji College of Engineering",
+    "short": "SSSSMC",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E175",
+    "name": "S.S.E.T.S.S.G.Balekundri Institute of Technology",
+    "short": "ETGBIT",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E176",
+    "name": "Navodaya Institute of Technology",
+    "short": "NIT",
+    "city": "Raichur",
+    "type": "Private"
+  },
+  {
+    "code": "E177",
+    "name": "Rajeev Institute of Technology",
+    "short": "RIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E178",
+    "name": "The National Institute of Engineering",
+    "short": "NIE",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E180",
+    "name": "Beary's Institute of Technology",
+    "short": "BIT",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E181",
+    "name": "Sri Basaveswara Institute of Technology",
+    "short": "SBIT",
+    "city": "Tumkur",
+    "type": "Private"
+  },
+  {
+    "code": "E184",
+    "name": "C Byre Gowda Institute of Technology",
+    "short": "CBGIT",
+    "city": "Kolar",
+    "type": "Private"
+  },
+  {
+    "code": "E185",
+    "name": "Angadi Institute of Technology and Management",
+    "short": "AITM",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E186",
+    "name": "ACS College of Engineering",
+    "short": "ACE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E188",
+    "name": "Vijaya Vittala Institute of Technology",
+    "short": "VVIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E189",
+    "name": "Navkis College of Engineering",
+    "short": "NCE",
+    "city": "Hassan",
+    "type": "Private"
+  },
+  {
+    "code": "E191",
+    "name": "Akshaya Institute of Technology",
+    "short": "AIT",
+    "city": "Tumkur",
+    "type": "Private"
+  },
+  {
+    "code": "E193",
+    "name": "Srinivas University",
+    "short": "SU",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E194",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Uttara Kannada",
+    "type": "Government"
+  },
+  {
+    "code": "E196",
+    "name": "Jain College of Engineering",
+    "short": "JCE",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E197",
+    "name": "Veerappa Nisty Engineering College",
+    "short": "VNEC",
+    "city": "Yadgiri",
+    "type": "Private"
+  },
+  {
+    "code": "E198",
+    "name": "Sharanbasava University",
+    "short": "SU",
+    "city": "Gulbarga",
+    "type": "Private"
+  },
+  {
+    "code": "E199",
+    "name": "AGM Rural Engineering College",
+    "short": "AREC",
+    "city": "Hubli",
+    "type": "Private"
   },
   {
     "code": "E201",
-    "name": "NMAM Institute of Technology, Nitte",
-    "short": "NMAMIT",
-    "city": "Udupi",
-    "type": "Private",
-    "fees": 215000
+    "name": "Gopalan College of Engineering & Management",
+    "short": "GCEM",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E202",
+    "name": "Sampoorna Group of Institutions",
+    "short": "SGI",
+    "city": "Ramanagara",
+    "type": "Private"
   },
   {
     "code": "E203",
-    "name": "Sahyadri College of Engineering and Management, Mangalore",
-    "short": "Sahyadri",
-    "city": "Mangaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "K S School of Engineering & Management",
+    "short": "KSEM",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E204",
+    "name": "Bangalore Technological Institute",
+    "short": "BTI",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
     "code": "E205",
-    "name": "Canara Engineering College, Mangalore",
-    "short": "CEC",
-    "city": "Mangaluru",
-    "type": "Private",
-    "fees": 215000
+    "name": "ATME College of Engineering",
+    "short": "ACE",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E206",
+    "name": "Shri Madhwa Vadiraja Institute of Technology and Management",
+    "short": "SMVITM",
+    "city": "Udupi",
+    "type": "Private"
+  },
+  {
+    "code": "E207",
+    "name": "V S M`s Somashekhar R Kothiwale Institute of Technology",
+    "short": "VMSRKI",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E209",
+    "name": "Jyothi Institute of Technology",
+    "short": "JIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E210",
+    "name": "G Madegowda Institute of Technology",
+    "short": "GMIT",
+    "city": "Mandya",
+    "type": "Private"
+  },
+  {
+    "code": "E211",
+    "name": "Jain Institute of Technology",
+    "short": "JIT",
+    "city": "Davanagere",
+    "type": "Private"
+  },
+  {
+    "code": "E212",
+    "name": "Dayananda Sagar Academy of Technology & Management Technical",
+    "short": "DSATMT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E213",
+    "name": "Lingarajappa Engineering College",
+    "short": "LEC",
+    "city": "Bidar",
+    "type": "Private"
+  },
+  {
+    "code": "E216",
+    "name": "Shetty Institute of Technology",
+    "short": "SIT",
+    "city": "Gulbarga",
+    "type": "Private"
+  },
+  {
+    "code": "E220",
+    "name": "ALLIANCE University Central Campus",
+    "short": "AUCC",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E221",
+    "name": "Biluru Gurubasava Mahaswamiji Institute of Technology",
+    "short": "BGMIT",
+    "city": "Bagalkote",
+    "type": "Private"
+  },
+  {
+    "code": "E222",
+    "name": "Cambridge Institute Of Technology",
+    "short": "CIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E225",
+    "name": "SJB School of Achitecture & Planning",
+    "short": "SSAP",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E227",
+    "name": "Cauvery institute of Technology",
+    "short": "CIT",
+    "city": "Mandya",
+    "type": "Private"
+  },
+  {
+    "code": "E232",
+    "name": "REVA University",
+    "short": "RU",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E235",
+    "name": "M . S . Ramaiah University of Applied Sciences",
+    "short": "MRUAS",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E237",
+    "name": "PRESIDENCY University",
+    "short": "PU",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E238",
+    "name": "Mysuru Royal Institute Of Technology",
+    "short": "MRIT",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E239",
+    "name": "East West College Of Engineering",
+    "short": "EWCE",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E240",
+    "name": "Dayananda Sagar University",
+    "short": "DSU",
+    "city": "Ramanagara",
+    "type": "Private"
+  },
+  {
+    "code": "E241",
+    "name": "KLE Technological University",
+    "short": "KTU",
+    "city": "Hubli",
+    "type": "Private"
+  },
+  {
+    "code": "E252",
+    "name": "Mysore College Of Engineering and Management",
+    "short": "MCEM",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E254",
+    "name": "A J Institute Of Engineering And Technology.Kottar chowki",
+    "short": "JIETKC",
+    "city": "Mangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E255",
+    "name": "Gandhi Institute of Technology and Management Gitam OFF Campus",
+    "short": "GITMGO",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E256",
+    "name": "RAI Technological University",
+    "short": "RTU",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E257",
+    "name": "CMR University Main Campus",
+    "short": "CUMC",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E258",
+    "name": "Maharaja Institute of Technology",
+    "short": "MIT",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E259",
+    "name": "Sir M V School of Architecture",
+    "short": "SMVSA",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E263",
+    "name": "School of Planning and Architchure",
+    "short": "SPA",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E264",
+    "name": "Basav Engineering School of Technology",
+    "short": "BEST",
+    "city": "Bijapur",
+    "type": "Private"
+  },
+  {
+    "code": "E265",
+    "name": "Jain College of Engineering and Technology",
+    "short": "JCET",
+    "city": "Hubli",
+    "type": "Private"
+  },
+  {
+    "code": "E266",
+    "name": "BMS College of Architecture",
+    "short": "BCA",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E269",
+    "name": "Jain College Of Engineering and Research",
+    "short": "JCER",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E272",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Koppal",
+    "type": "Government"
+  },
+  {
+    "code": "E273",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Koppal",
+    "type": "Government"
+  },
+  {
+    "code": "E274",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Hassan",
+    "type": "Government"
+  },
+  {
+    "code": "E275",
+    "name": "R V Institute Of Technology and Management",
+    "short": "RVITM",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E278",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E279",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Belgaum",
+    "type": "Private"
+  },
+  {
+    "code": "E281",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Bellary",
+    "type": "Government"
+  },
+  {
+    "code": "E283",
+    "name": "University of Mysuru B.N.BAHADUR INSTITUTE OF",
+    "short": "UMBNBI",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E284",
+    "name": "Sri Jayachamarajendra College of Engineering",
+    "short": "SJCE",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E285",
+    "name": "RV University",
+    "short": "RU",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E286",
+    "name": "BGS College of Engineering & Technology",
+    "short": "BCET",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E287",
+    "name": "Vidyashilp University",
+    "short": "VU",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E288",
+    "name": "Garden City University",
+    "short": "GCU",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E289",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private"
+  },
+  {
+    "code": "E290",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E291",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Gadag",
+    "type": "Government"
+  },
+  {
+    "code": "E292",
+    "name": "Government Engineering College",
+    "short": "GEC",
+    "city": "Bidar",
+    "type": "Government"
+  },
+  {
+    "code": "E297",
+    "name": "Aditya College of Engineering and Technology Survey NO",
+    "short": "ACETSN",
+    "city": "Karnataka",
+    "type": "Private"
+  },
+  {
+    "code": "E299",
+    "name": "Ghousia Institute of Technology for Women",
+    "short": "GITW",
+    "city": "Bangalore",
+    "type": "Private"
+  },
+  {
+    "code": "E300",
+    "name": "Akash Intitute of Engineering and Technology Prasannahalli Main",
+    "short": "AIETPM",
+    "city": "Karnataka",
+    "type": "Private"
   },
   {
     "code": "E301",
-    "name": "KLE Technological University (BVB), Hubballi",
-    "short": "KLETU",
-    "city": "Hubballi",
-    "type": "Private",
-    "fees": 215000
+    "name": "Kishkinda University Ballari Institute of Technology &",
+    "short": "KUBIT",
+    "city": "Bellary",
+    "type": "Private"
+  },
+  {
+    "code": "E302",
+    "name": "AMITY UNIVERSITY National Highway",
+    "short": "AUNH",
+    "city": "Doddaballapur",
+    "type": "Private"
   },
   {
     "code": "E303",
-    "name": "SDM College of Engineering and Technology, Dharwad",
-    "short": "SDMCET",
-    "city": "Dharwad",
-    "type": "Private",
-    "fees": 215000
+    "name": "GM University",
+    "short": "GU",
+    "city": "Davanagere",
+    "type": "Private"
+  },
+  {
+    "code": "E304",
+    "name": "Anuvartik Mirji Bharatesh Institute of Technology Belagavi",
+    "short": "AMBITB",
+    "city": "Belgaum",
+    "type": "Private"
   },
   {
     "code": "E305",
-    "name": "Basaveshwar Engineering College, Bagalkot",
-    "short": "BEC",
-    "city": "Bagalkot",
-    "type": "Aided",
-    "fees": 85000
+    "name": "DR H N National College of Engineering Bengaluru",
+    "short": "HNNCEB",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
-    "code": "E401",
-    "name": "University B D T College of Engineering, Davangere",
-    "short": "UBDTCE",
-    "city": "Davangere",
-    "type": "Government",
-    "fees": 45000
+    "code": "E306",
+    "name": "THE Chanakya University NO",
+    "short": "CUN",
+    "city": "Bangalore",
+    "type": "Private"
   },
   {
-    "code": "E403",
-    "name": "Bapuji Institute of Engineering and Technology, Davangere",
-    "short": "BIET",
-    "city": "Davangere",
-    "type": "Private",
-    "fees": 215000
+    "code": "E307",
+    "name": "Seshadripuram Institute of Technology Mysuru Mysuru",
+    "short": "SITMM",
+    "city": "Mysore",
+    "type": "Private"
   },
   {
-    "code": "E405",
-    "name": "Siddaganga Institute of Technology, Tumakuru",
-    "short": "SIT",
-    "city": "Tumakuru",
-    "type": "Aided",
-    "fees": 85000
+    "code": "E308",
+    "name": "Constituent College of VTU",
+    "short": "CCV",
+    "city": "Karnataka",
+    "type": "Private"
   },
   {
-    "code": "E407",
-    "name": "Malnad College of Engineering, Hassan",
-    "short": "MCE",
+    "code": "E309",
+    "name": "Constituent College of VTU",
+    "short": "CCV",
+    "city": "Karnataka",
+    "type": "Private"
+  },
+  {
+    "code": "E310",
+    "name": "Government Engineering College",
+    "short": "GEC",
     "city": "Hassan",
-    "type": "Aided",
-    "fees": 85000
+    "type": "Government"
   },
   {
-    "code": "E409",
-    "name": "P D A College of Engineering, Kalaburagi",
-    "short": "PDACE",
-    "city": "Kalaburagi",
-    "type": "Government",
-    "fees": 45000
+    "code": "E311",
+    "name": "Rathinam Institute of Technology Doddakammanahally Village",
+    "short": "RITDV",
+    "city": "Karnataka",
+    "type": "Private"
   },
   {
-    "code": "E411",
-    "name": "JNN College of Engineering, Shivamogga",
-    "short": "JNNCE",
-    "city": "Shivamogga",
-    "type": "Private",
-    "fees": 215000
+    "code": "E312",
+    "name": "NEW Ebenezer Institute of Technology Hennur Bagalur Main Road",
+    "short": "NEITHB",
+    "city": "Karnataka",
+    "type": "Private"
+  },
+  {
+    "code": "E313",
+    "name": "Harsha Institute of Technology Varadanayakana Hally Village",
+    "short": "HITVHV",
+    "city": "Karnataka",
+    "type": "Private"
+  },
+  {
+    "code": "E314",
+    "name": "Cauvery College of Engineering KBL Layout",
+    "short": "CCEKL",
+    "city": "Mysore",
+    "type": "Private"
+  },
+  {
+    "code": "E315",
+    "name": "VTU Constituent Engineering College - Gokak",
+    "short": "VCEC-G",
+    "city": "Karnataka",
+    "type": "Private"
   }
 ]

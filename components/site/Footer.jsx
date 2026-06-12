@@ -8,16 +8,15 @@ export function Footer() {
           <p className="max-w-md">
             KCET College Finder — a free tool to explore Karnataka engineering
             admissions by rank, branch and cutoff. <br />
-            Built with ❤️ by{" "}
-            <b>
-              <a
+            Made by{" "}
+            <a
               href="https://kousthubha.me"
-              className="underline hover:text-foreground"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-foreground underline decoration-from-font underline-offset-2 hover:text-accent"
             >
               kousthubha.me
             </a>
-            </b>
-            
             <br /> Data sourced from official KEA results.
           </p>
           <nav className="flex gap-5 font-medium">
@@ -27,9 +26,22 @@ export function Footer() {
           </nav>
         </div>
         <p className="mt-4 text-xs text-muted-foreground/70">
-          Cutoffs shown are indicative sample data for guidance only. Always
+          Cutoffs are KEA&apos;s published KCET-2025 round-wise closing ranks
+          (Rounds 1–3, Rest of Karnataka), shown for guidance only. Always
           verify against official KEA results at cetonline.karnataka.gov.in
           before making admission decisions.
+        </p>
+        <p className="mt-3 text-xs text-muted-foreground/60">
+          © {new Date().getFullYear()}{" "}
+          <a
+            href="https://kousthubha.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground"
+          >
+            kousthubha.me
+          </a>
+          . All rights reserved.
         </p>
       </div>
     </footer>

@@ -14,7 +14,7 @@ import {
 import { Select } from "@/components/ui/select";
 import { ChanceBadge } from "@/components/ChanceBadge";
 import { CHANCE } from "@/lib/eligibility";
-import { formatRank, formatFees } from "@/lib/format";
+import { formatRank } from "@/lib/format";
 import { cn } from "@/lib/utils";
 
 export function PredictResults({ matches, summary, taxonomy }) {
@@ -168,7 +168,6 @@ export function PredictResults({ matches, summary, taxonomy }) {
                     {formatRank(m.closingRank)}
                   </span>
                 </span>
-                <span className="text-muted-foreground">{formatFees(m.fees)}/yr</span>
               </div>
             </div>
             <ChevronRight className="size-5 shrink-0 text-muted-foreground" />
@@ -189,8 +188,7 @@ export function PredictResults({ matches, summary, taxonomy }) {
               <TableHead>College</TableHead>
               <TableHead>Branch</TableHead>
               <TableHead className="text-center">Closing rank</TableHead>
-              <TableHead className="text-center">Chance</TableHead>
-              <TableHead className="text-right">Fees/yr</TableHead>
+              <TableHead className="text-right">Chance</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -217,10 +215,9 @@ export function PredictResults({ matches, summary, taxonomy }) {
                 <TableCell className="text-center font-mono font-bold text-primary">
                   {formatRank(m.closingRank)}
                 </TableCell>
-                <TableCell className="text-center">
+                <TableCell className="text-right">
                   <ChanceBadge chance={m.chance} />
                 </TableCell>
-                <TableCell className="text-right text-sm">{formatFees(m.fees)}</TableCell>
               </TableRow>
             ))}
           </TableBody>

@@ -2,9 +2,10 @@ import { getColleges, getCollege, getTaxonomy } from "@/lib/data";
 import { CompareView } from "@/components/CompareView";
 
 export const metadata = {
-  title: "Compare colleges",
+  title: "Compare KCET Colleges Side by Side",
   description:
-    "Compare two Karnataka engineering colleges side by side on KCET closing ranks and fees, branch by branch.",
+    "Compare two Karnataka engineering colleges side by side on KCET 2025 closing ranks, branch by branch.",
+  alternates: { canonical: "/compare" },
 };
 
 export default async function ComparePage({ searchParams }) {

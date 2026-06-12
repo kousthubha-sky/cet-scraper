@@ -13,7 +13,7 @@ export function GET(request) {
   const matches = predict(getCutoffs(), {
     rank,
     category: sp.get("category") || "GM",
-    round: sp.get("round") || "R1",
+    round: sp.get("round") || "R2",
     branches: csv(sp.get("branches")),
     cities: csv(sp.get("cities")),
     types: csv(sp.get("types")),

@@ -1,16 +1,22 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, MapPin } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select } from "@/components/ui/select";
-import { formatFees } from "@/lib/format";
 
 export function CollegeSearch({ colleges, cities, types }) {
   const [q, setQ] = useState("");
   const [city, setCity] = useState("all");
   const [type, setType] = useState("all");
+
+  // Seed the search box from a ?q= param (e.g. the search-box rich result),
+  // client-side so the page stays statically prerendered.
+  useEffect(() => {
+    const q0 = new URLSearchParams(window.location.search).get("q");
+    if (q0) setQ(q0);
+  }, []);
 
   const filtered = useMemo(() => {
     const needle = q.toLowerCase().trim();
@@ -77,7 +83,7 @@ export function CollegeSearch({ colleges, cities, types }) {
                 <MapPin className="size-3" />
                 {c.city}
               </span>
-              <span>{c.type} · {formatFees(c.fees)}/yr</span>
+              <span>{c.type}</span>
             </div>
           </Link>
         ))}
