@@ -16,7 +16,10 @@ export default function HomePage() {
   const colleges = getColleges();
   const year = dataYear();
   const popular = taxonomy.branches.slice(0, 8);
-  const marquee = [...colleges, ...colleges];
+  // Cap the decorative strip to a fixed set — its scroll speed is chip-count ÷
+  // the CSS animation duration, so feeding all 229 colleges makes it race by.
+  const marqueeColleges = colleges.slice(0, 24);
+  const marquee = [...marqueeColleges, ...marqueeColleges];
 
   const stats = [
     { value: colleges.length, label: "Colleges" },
