@@ -3,6 +3,7 @@ import { predict, summarize } from "@/lib/eligibility";
 import { PredictForm } from "@/components/PredictForm";
 import { PredictResults } from "@/components/PredictResults";
 import { ordinal } from "@/lib/format";
+import { TriangleAlert } from "lucide-react";
 
 export const metadata = {
   title: "Predict your colleges by KCET rank",
