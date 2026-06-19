@@ -1,10 +1,13 @@
 import { getColleges, getTaxonomy } from "@/lib/data";
+import { getPgcetColleges, getPgcetTaxonomy } from "@/lib/pgcet";
 import { SITE_URL } from "@/lib/site";
 
 export default function sitemap() {
   const now = new Date();
   const colleges = getColleges();
   const branches = getTaxonomy().branches;
+  const pgcetColleges = getPgcetColleges();
+  const pgcetBranches = getPgcetTaxonomy().branches;
 
   const staticPages = [
     { path: "", priority: 1.0, changeFrequency: "daily" },
@@ -12,6 +15,11 @@ export default function sitemap() {
     { path: "/colleges", priority: 0.8, changeFrequency: "weekly" },
     { path: "/branches", priority: 0.8, changeFrequency: "weekly" },
     { path: "/compare", priority: 0.6, changeFrequency: "monthly" },
+    { path: "/pgcet", priority: 0.9, changeFrequency: "weekly" },
+    { path: "/pgcet/predict", priority: 0.9, changeFrequency: "weekly" },
+    { path: "/pgcet/colleges", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/pgcet/branches", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/pgcet/compare", priority: 0.6, changeFrequency: "monthly" },
   ].map((p) => ({
     url: `${SITE_URL}${p.path}`,
     lastModified: now,
@@ -19,19 +27,19 @@ export default function sitemap() {
     priority: p.priority,
   }));
 
-  const collegePages = colleges.map((c) => ({
-    url: `${SITE_URL}/colleges/${c.code}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
+  const dyn = (items, prefix) =>
+    items.map((it) => ({
+      url: `${SITE_URL}${prefix}${it.code}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    }));
 
-  const branchPages = branches.map((b) => ({
-    url: `${SITE_URL}/branches/${b.code}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
-
-  return [...staticPages, ...collegePages, ...branchPages];
+  return [
+    ...staticPages,
+    ...dyn(colleges, "/colleges/"),
+    ...dyn(branches, "/branches/"),
+    ...dyn(pgcetColleges, "/pgcet/colleges/"),
+    ...dyn(pgcetBranches, "/pgcet/branches/"),
+  ];
 }

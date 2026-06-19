@@ -1,0 +1,3738 @@
+[
+  {
+    "code": "B018",
+    "name": "Constituent Colege of VTU",
+    "short": "CCV",
+    "city": "Karnataka",
+    "type": "Government",
+    "branch": "MBA"
+  },
+  {
+    "code": "B019",
+    "name": "M S Centre for Advanced Studies",
+    "short": "MCAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B020",
+    "name": "Vasavi Jnana Peetha First Grade College",
+    "short": "VJPFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B021",
+    "name": "United International Business School",
+    "short": "UIBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B022",
+    "name": "THE Rural College Kanakapura",
+    "short": "RCK",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B025",
+    "name": "Silicon City College",
+    "short": "SCC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B027",
+    "name": "Sapthagiri NPS University",
+    "short": "SNU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B031",
+    "name": "Oxford College",
+    "short": "OC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B032",
+    "name": "Mysuru Royal Institute of Technology",
+    "short": "MRIT",
+    "city": "Mysore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B033",
+    "name": "MVM College of Arts Science and Management",
+    "short": "MCASM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B034",
+    "name": "Jyothy Institute of Commerce and Management",
+    "short": "JICM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B035",
+    "name": "Jain College of Engineering and Research",
+    "short": "JCER",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B036",
+    "name": "Jain College of Engineering & Technology",
+    "short": "JCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B037",
+    "name": "Indo Asian Academy Degree College",
+    "short": "IAADC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B038",
+    "name": "Gopalan College of Commerce",
+    "short": "GCC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B040",
+    "name": "G Madegowda Institute of Technology",
+    "short": "GMIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B051",
+    "name": "Canara Bank School of Management Studies",
+    "short": "CBSMS",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B053",
+    "name": "Canara Bank School of Management Studies",
+    "short": "CBSMS",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B060",
+    "name": "Daksha First Grade College",
+    "short": "DFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B061",
+    "name": "Christ College of Science and Management",
+    "short": "CCSM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B062",
+    "name": "Cauvery College of Management",
+    "short": "CCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B063",
+    "name": "C B Bhandari Jain College",
+    "short": "CBBJC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B064",
+    "name": "Bishop Cotton Academy of Professional Management",
+    "short": "BCAPM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B067",
+    "name": "A. J. Institute of Engineering and Technology Mangaluru",
+    "short": "JIETM",
+    "city": "Mangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B069",
+    "name": "DR H N National College of Engineering",
+    "short": "HNNCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B070",
+    "name": "Bright Business School",
+    "short": "BBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B071",
+    "name": "SRI Siddhartha Academy of Higher Education Agalkote",
+    "short": "SSAHEA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B072",
+    "name": "KISHKINDA University",
+    "short": "KU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B073",
+    "name": "ST Philomena's College",
+    "short": "SPC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B074",
+    "name": "SRI Devaraj URS Institute of Management",
+    "short": "SDUIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B075",
+    "name": "Shri Madhwa Vadiraja Institute of Technology and Management",
+    "short": "SMVITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B076",
+    "name": "Seshadripuram College Tumakuru",
+    "short": "SCT",
+    "city": "Tumkur",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B077",
+    "name": "Seshadripuram College",
+    "short": "SC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B078",
+    "name": "RNS First Grade College",
+    "short": "RFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B079",
+    "name": "Rathinam School of Business",
+    "short": "RSB",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B080",
+    "name": "R.l.jalappa Institute of Technology",
+    "short": "RLJIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B081",
+    "name": "Parivarthana Business School",
+    "short": "PBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B083",
+    "name": "MBA Department",
+    "short": "MD",
+    "city": "Tumkur",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B084",
+    "name": "Izee Business School",
+    "short": "IBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B085",
+    "name": "GS College of Management",
+    "short": "GCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B086",
+    "name": "GM University",
+    "short": "GU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B087",
+    "name": "Department of Business Administration",
+    "short": "DBA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B088",
+    "name": "BGS B-school",
+    "short": "BB",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B089",
+    "name": "Bangalore Integrated Management Academy",
+    "short": "BIMA",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B090",
+    "name": "Bangalore Institute of Management Science and Research",
+    "short": "BIMSR",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B091",
+    "name": "VTU Post Graduate Center and Skill Development Center Talakal",
+    "short": "VPGCSD",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B093",
+    "name": "Bagalkote University",
+    "short": "BU",
+    "city": "Bagalkote",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B095",
+    "name": "Amity University",
+    "short": "AU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B096",
+    "name": "Vidhya Shekhar Institution of Management Studies",
+    "short": "VSIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B097",
+    "name": "Akash Institute of Engineering and Technology",
+    "short": "AIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B098",
+    "name": "Akash Global College of Management and Science",
+    "short": "AGCMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B099",
+    "name": "BGS College of Engineering and Technology",
+    "short": "BCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B100",
+    "name": "Primus School of Management Studies",
+    "short": "PSMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B101",
+    "name": "A. J. Institute of Management",
+    "short": "JIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B103",
+    "name": "Aims IBS Business School",
+    "short": "AIBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B104",
+    "name": "Acharya Institute of Management and Sciences",
+    "short": "AIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B105",
+    "name": "Acharya Institute of Technology",
+    "short": "AIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B106",
+    "name": "Acharya's Bangalore B-school",
+    "short": "ABB",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B109",
+    "name": "Adichunchanagiri Institute of Technology",
+    "short": "AIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B110",
+    "name": "Administrative Management College",
+    "short": "AMC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B113",
+    "name": "Al-ameen Institute of Management Studies",
+    "short": "AIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B114",
+    "name": "Dhanwantari Academy for Management Studies",
+    "short": "DAMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B115",
+    "name": "Alva's Institute of Engineering and Technology",
+    "short": "AIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B116",
+    "name": "AMC Engineering College",
+    "short": "AEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B117",
+    "name": "Amruta Institute of Engineering and Management Sciences",
+    "short": "AIEMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B118",
+    "name": "Angadi Institute of Technology and Management",
+    "short": "AITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B119",
+    "name": "Anjuman Institute of Technology and Management",
+    "short": "AITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B120",
+    "name": "Annapoorna Institute of Management Research",
+    "short": "AIMR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B122",
+    "name": "Atria Institute of Technology",
+    "short": "AIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B124",
+    "name": "B V V Sangha's Basaveshwar Engineering College",
+    "short": "BVVSBE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B125",
+    "name": "B V V Sangha's Institute of Management Studies",
+    "short": "BVVSIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B126",
+    "name": "B.l.d.e.a's A S Patil College of Commerce MBA Course",
+    "short": "BLDEPC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B127",
+    "name": "B.l.d.e.a's V.P DR P.g.halakatti College of Engg. & Tech",
+    "short": "BLDEVP",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B128",
+    "name": "Ballari Institute of Technology & Management",
+    "short": "BITM",
+    "city": "Bellary",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B131",
+    "name": "Bangalore Institute of Technology",
+    "short": "BIT",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B132",
+    "name": "Bapuji Institute of Engineering & Technology",
+    "short": "BIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B133",
+    "name": "Bapuji Academy of Management & Research",
+    "short": "BAMR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B135",
+    "name": "Bharatesh Education Trust Global Business School",
+    "short": "BETGBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B136",
+    "name": "BMS College of Engineering",
+    "short": "BCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B137",
+    "name": "BMS Institute of Technology & Management",
+    "short": "BITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B138",
+    "name": "BNM Institute of Technology",
+    "short": "BIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B139",
+    "name": "Brindavan College",
+    "short": "BC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B140",
+    "name": "Brindavan College of Engineering",
+    "short": "BCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B142",
+    "name": "K L E Technological University",
+    "short": "KLETU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B143",
+    "name": "Cambridge Institute of Technology",
+    "short": "CIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B144",
+    "name": "Canara Bank School of Management Studies",
+    "short": "CBSMS",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B145",
+    "name": "Channabasaveshwara Institute of Technology",
+    "short": "CIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B146",
+    "name": "Chetan Business School Institute of Management & Research",
+    "short": "CBSIMR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B147",
+    "name": "City College",
+    "short": "CC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B148",
+    "name": "City Engineering College",
+    "short": "CEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B149",
+    "name": "CMR University",
+    "short": "CU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B150",
+    "name": "CMR University",
+    "short": "CU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B151",
+    "name": "CMR Institute of Technology",
+    "short": "CIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B153",
+    "name": "Community Institute of Management Studies",
+    "short": "CIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B154",
+    "name": "Institute of Management Studies",
+    "short": "IMS",
+    "city": "Davanagere",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B156",
+    "name": "Dayananda Sagar Academy of Technology and Management",
+    "short": "DSATM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B157",
+    "name": "Dayananda Sagar College of Arts",
+    "short": "DSCA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B158",
+    "name": "Dayananda Sagar College of Engineering",
+    "short": "DSCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B159",
+    "name": "Department of Management Studies",
+    "short": "DMS",
+    "city": "Bellary",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B160",
+    "name": "Department of Management",
+    "short": "DM",
+    "city": "Gulbarga",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B162",
+    "name": "DON Bosco Institute of Management Studies & Computer",
+    "short": "DBIMSC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B163",
+    "name": "DON Bosco Institute of Technology",
+    "short": "DBIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B164",
+    "name": "DR. Ambedkar Institute of Technology",
+    "short": "AIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B167",
+    "name": "Harsha Institute of Management Studies",
+    "short": "HIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B168",
+    "name": "East Point College of Higher Education",
+    "short": "EPCHE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B169",
+    "name": "East West College of Management",
+    "short": "EWCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B170",
+    "name": "Maharaja Institute of Technology Thandavapura",
+    "short": "MITT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B171",
+    "name": "East West Institute of Technology",
+    "short": "EWIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B172",
+    "name": "G.t. Institute of Management Studies and Research",
+    "short": "GTIMSR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B174",
+    "name": "Global Academy of Technology",
+    "short": "GAT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B175",
+    "name": "Global Business School",
+    "short": "GBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B178",
+    "name": "Government First Grade College",
+    "short": "GFGC",
+    "city": "Karnataka",
+    "type": "Government",
+    "branch": "MBA"
+  },
+  {
+    "code": "B179",
+    "name": "Government R C College of Commerce &management",
+    "short": "GRCCC&",
+    "city": "Karnataka",
+    "type": "Government",
+    "branch": "MBA"
+  },
+  {
+    "code": "B180",
+    "name": "Gsss Institute of Engineering & Technology for Women",
+    "short": "GIETW",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B181",
+    "name": "Guru Nanak DEV Engineering College",
+    "short": "GNDEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B182",
+    "name": "Hillside Institute of Management & Academy",
+    "short": "HIMA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B184",
+    "name": "H.k.e Society's SIR M Visvesvaraya College of Engineering",
+    "short": "HKESSM",
+    "city": "Raichur",
+    "type": "Government",
+    "branch": "MBA"
+  },
+  {
+    "code": "B186",
+    "name": "Impact College of Engineering and Applied Sciences",
+    "short": "ICEAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B187",
+    "name": "IA School of Management Studies",
+    "short": "ISMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B188",
+    "name": "Institute of Excellence in Management Science",
+    "short": "IEMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B189",
+    "name": "Institute of Management Studies",
+    "short": "IMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B190",
+    "name": "Jain College of Engineering",
+    "short": "JCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B192",
+    "name": "Jain Institute of Technology",
+    "short": "JIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B193",
+    "name": "Dr. D VEERENDRA HEGGADE INSTITUTE OF MANAGEMENT STIUDIES &",
+    "short": "DVHIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B194",
+    "name": "Jawaharlal Nehru NEW College of Engineering-mba",
+    "short": "JNNCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B195",
+    "name": "Jnanavikas Institute of Technology",
+    "short": "JIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B196",
+    "name": "JSS Academy of Technical Education",
+    "short": "JATE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B197",
+    "name": "Jyoti Nivas College",
+    "short": "JNC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B198",
+    "name": "K S School of Engineering and Management",
+    "short": "KSEM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B199",
+    "name": "K L E TECHNOLOGICAL UNIVERSITY.Belgaum campus",
+    "short": "KLETUB",
+    "city": "Belgaum",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B200",
+    "name": "K.l.s. Gogte Institute of Technology",
+    "short": "KLGIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B201",
+    "name": "Kalpataru Institute of Technology",
+    "short": "KIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B203",
+    "name": "Karnatak University",
+    "short": "KU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B204",
+    "name": "Karnataka College of Management",
+    "short": "KCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B207",
+    "name": "KLE Society's Institute of Management Studies and Research",
+    "short": "KSIMSR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B208",
+    "name": "KLS Instt. of Mgt.",
+    "short": "KIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B209",
+    "name": "Koshys Institute of Management Studies",
+    "short": "KIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B211",
+    "name": "Krupanidhi College of Management",
+    "short": "KCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B212",
+    "name": "Kuvempu University",
+    "short": "KU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B213",
+    "name": "KVG College of Engineering",
+    "short": "KCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B217",
+    "name": "M. S. Ramaiah Institute of Technology-mba Programme",
+    "short": "MRITP",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B219",
+    "name": "Maharaja Institute of Technology",
+    "short": "MIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B220",
+    "name": "Maharani `S Womens Commerce and Management College",
+    "short": "MWCMC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B221",
+    "name": "Maharani's Cluster University",
+    "short": "MCU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B222",
+    "name": "Manel Srinivas Nayak Institute of Management",
+    "short": "MSNIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B223",
+    "name": "Global Institute of Management Science",
+    "short": "GIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B224",
+    "name": "Mangalore Institute of Technology & Engineering",
+    "short": "MITE",
+    "city": "Mangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B226",
+    "name": "Moodlakatte Institute of Technology",
+    "short": "MIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B227",
+    "name": "MVJ College of Engineering - MBA",
+    "short": "MCE-M",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B228",
+    "name": "Nagarjuna College of Engineering and Technology",
+    "short": "NCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B229",
+    "name": "Kle`s KLE College of Engineering and Technology",
+    "short": "KKCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B230",
+    "name": "NEW Horizon College of Engineering",
+    "short": "NHCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B233",
+    "name": "Oxbridge Business School",
+    "short": "OBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B235",
+    "name": "Sahyadri Commerce and Management College",
+    "short": "SCMC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B237",
+    "name": "P.A College of Engineering",
+    "short": "PCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B238",
+    "name": "P.e.s. College of Engineering",
+    "short": "PECE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B239",
+    "name": "PES Institute of Technology & Management",
+    "short": "PITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B240",
+    "name": "PES University",
+    "short": "PU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B243",
+    "name": "Poornaprajna Institute of Management",
+    "short": "PIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B245",
+    "name": "Presidency College",
+    "short": "PC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B246",
+    "name": "Proudhadevaraya Institute of Technology",
+    "short": "PIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B248",
+    "name": "Christian Institute of Management",
+    "short": "CIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B250",
+    "name": "R.r. Institute of Advanced Studies",
+    "short": "RRIAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B252",
+    "name": "R.v. Institute of Management",
+    "short": "RVIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B253",
+    "name": "Rajarajeswari College of Engineering",
+    "short": "RCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B254",
+    "name": "Rajeev Institute of Technology",
+    "short": "RIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B255",
+    "name": "Rajiv Gandhi Institute of Technology",
+    "short": "RGIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B256",
+    "name": "Rani Channamma University",
+    "short": "RCU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B257",
+    "name": "RAO Bahadur Y Mahabaleswarappa Engineering College",
+    "short": "RBYMEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B258",
+    "name": "Regional College of Management",
+    "short": "RCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B260",
+    "name": "Reva University",
+    "short": "RU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B261",
+    "name": "Mount Carmel College",
+    "short": "MCC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B262",
+    "name": "RJS Institute of Management Studies",
+    "short": "RIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B263",
+    "name": "RNS Institute of Technology",
+    "short": "RIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B265",
+    "name": "S J C Institute of Technology",
+    "short": "JCIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B266",
+    "name": "S. E. A. College of Engineering & Technology",
+    "short": "ECET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B268",
+    "name": "Sahyadri College of Engineering & Management",
+    "short": "SCEM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B269",
+    "name": "SAI Vidya Institute of Technology",
+    "short": "SVIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B270",
+    "name": "Sambhram Academy of Management Studies",
+    "short": "SAMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B271",
+    "name": "Sambhram Institute of Technology",
+    "short": "SIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B272",
+    "name": "Sampoorna Group of Institutions",
+    "short": "SGI",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B273",
+    "name": "SB College of Management Studies",
+    "short": "SCMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B274",
+    "name": "Sbrr Mahajana First Grade College",
+    "short": "SMFGC",
+    "city": "Mysore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B276",
+    "name": "SDM College of Business Management Post Graduate Centre for",
+    "short": "SCBMPG",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B277",
+    "name": "Sdm. College of Engineering & Technology",
+    "short": "SCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B278",
+    "name": "Secab Institute of Engineering & Technology",
+    "short": "SIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B279",
+    "name": "Seshadripuram First Grade College",
+    "short": "SFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B281",
+    "name": "Shree Devi Institute of Technology",
+    "short": "SDIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B282",
+    "name": "Shridevi Institute of Engineering and Technology",
+    "short": "SIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B285",
+    "name": "Siddaganga Institute of Technology - MBA",
+    "short": "SIT-M",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B286",
+    "name": "SIR M. Visvesvaraya Institute of Technology",
+    "short": "SMVIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B288",
+    "name": "SJB Institute of Technology",
+    "short": "SIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B289",
+    "name": "SMT Danamma Channabasavaiah College of Arts Commerce Science",
+    "short": "SDCCAC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B290",
+    "name": "DR. B R Ambedkar Post Graduate Centre",
+    "short": "BRAPGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B291",
+    "name": "SRI Gokula College of Arts",
+    "short": "SGCA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B292",
+    "name": "JSS Science and Technlogy University",
+    "short": "JSTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B294",
+    "name": "SRI Siddhartha Institute of Management Studies",
+    "short": "SSIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B295",
+    "name": "SRI Venkateshwara College of Engineering",
+    "short": "SVCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B296",
+    "name": "Srinivasa University",
+    "short": "SU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B297",
+    "name": "Srinivas Institute of Technology",
+    "short": "SIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B300",
+    "name": "ST. Joseph Engineering College",
+    "short": "SJEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B302",
+    "name": "Surana College",
+    "short": "SC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B303",
+    "name": "T John College",
+    "short": "TJC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B304",
+    "name": "T John Institue of Management and Science",
+    "short": "TJIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B306",
+    "name": "THE Oxford College of Business Management",
+    "short": "OCBM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B307",
+    "name": "THE Oxford College of Engineering - MBA Programme",
+    "short": "OCE-MP",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B310",
+    "name": "B N Bahadur Institute of Management",
+    "short": "BNBIM",
+    "city": "Mysore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B313",
+    "name": "Allum Karibasappa Institute of Management",
+    "short": "AKIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B314",
+    "name": "Vidya Vikas Institute of Engineering & Technology",
+    "short": "VVIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B315",
+    "name": "Vidyavardhaka College of Engineering",
+    "short": "VCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B316",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B317",
+    "name": "Visvesvaraya Technological University.",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B318",
+    "name": "Visvesvaraya Technological University.",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B319",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B320",
+    "name": "Nagarjuna College of Management Studies",
+    "short": "NCMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B321",
+    "name": "Constituent Colege of VTU",
+    "short": "CCV",
+    "city": "Karnataka",
+    "type": "Government",
+    "branch": "MBA"
+  },
+  {
+    "code": "B322",
+    "name": "Vivekananda College of Engineering and Technology",
+    "short": "VCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B323",
+    "name": "Vivekananda Institute of Management",
+    "short": "VIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B326",
+    "name": "Harnahalli Ramaswamy Institute of Higher Education",
+    "short": "HRIHE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B327",
+    "name": "Padmashree Institute of Management and Sciences",
+    "short": "PIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B328",
+    "name": "Dr. AMBEDKAR INSTITUTE OF",
+    "short": "AI",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B329",
+    "name": "Nagarjuna Degree College",
+    "short": "NDC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B331",
+    "name": "Institute of Business Management and Research",
+    "short": "IBMR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B333",
+    "name": "ONE School of Business",
+    "short": "OSB",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B336",
+    "name": "Lingarajappa Engineering College",
+    "short": "LEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B341",
+    "name": "Sjes College of Management Studies",
+    "short": "SCMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B343",
+    "name": "Adichunchanagiri University",
+    "short": "AU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B344",
+    "name": "Biluru Gurubasava Mahaswamiji Inistiture of Technology",
+    "short": "BGMIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B345",
+    "name": "Aditya Institute of Management Studies & Reasearch",
+    "short": "AIMSR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B348",
+    "name": "M. S. Ramaiah University of Applied Sciences",
+    "short": "MRUAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B349",
+    "name": "Presidency University",
+    "short": "PU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B350",
+    "name": "Karnatak University PG Center",
+    "short": "KUPC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B352",
+    "name": "M.p. Birla Institute of Management Associate Bharati Vidhya",
+    "short": "MPBIMA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B356",
+    "name": "Isbr College",
+    "short": "IC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B359",
+    "name": "Imperial Institute of Advanced Management",
+    "short": "IIAM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B360",
+    "name": "NSB Academy",
+    "short": "NA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B361",
+    "name": "Adarsh Institute of Management & Information Technology",
+    "short": "AIMIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B362",
+    "name": "M S Ramaiah College of Arts",
+    "short": "MRCA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B364",
+    "name": "Canara Bank School of Management Studies",
+    "short": "CBSMS",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B365",
+    "name": "Dayananda Sagar University",
+    "short": "DSU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B366",
+    "name": "Government First Grade College",
+    "short": "GFGC",
+    "city": "Karnataka",
+    "type": "Government",
+    "branch": "MBA"
+  },
+  {
+    "code": "B367",
+    "name": "Yuvaraja's College",
+    "short": "YC",
+    "city": "Mysore",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B369",
+    "name": "Sharanbasva University.",
+    "short": "SU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B371",
+    "name": "SRI Krishna International Business School",
+    "short": "SKIBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B372",
+    "name": "Atme College of Engineering",
+    "short": "ACE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B373",
+    "name": "Karnataka State Rural Development & Panchayat RAJ University",
+    "short": "KSRDPR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B374",
+    "name": "Sindhi Instiute of Management",
+    "short": "SIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B375",
+    "name": "SVR College of Commerce and Management Studies",
+    "short": "SCCMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B377",
+    "name": "Patel Institute of Science and Management",
+    "short": "PISM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B378",
+    "name": "Ifim College",
+    "short": "IC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B379",
+    "name": "Impact Institute of Management Studies",
+    "short": "IIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B380",
+    "name": "SEA College of Science Commerce and Arts",
+    "short": "SCSCA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B381",
+    "name": "Christ Academy Institute for Advanced Studies",
+    "short": "CAIAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B382",
+    "name": "Gitam University",
+    "short": "GU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B385",
+    "name": "Alliance University",
+    "short": "AU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B386",
+    "name": "Acharya Institute of Graduate Studies",
+    "short": "AIGS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B390",
+    "name": "ST Francis DE Sales College",
+    "short": "SFDSC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B391",
+    "name": "ST. Francis College",
+    "short": "SFC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B392",
+    "name": "St.claret College",
+    "short": "SCC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B394",
+    "name": "Vanguard Business School",
+    "short": "VBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B395",
+    "name": "CMR University",
+    "short": "CU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B396",
+    "name": "Tumkur University",
+    "short": "TU",
+    "city": "Tumkur",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B397",
+    "name": "International Institute of Business Studies",
+    "short": "IIBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B398",
+    "name": "Soundarya Institute of Management and Science",
+    "short": "SIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B399",
+    "name": "ST. Agnes College Autonomous",
+    "short": "SACA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B400",
+    "name": "THE Chanakya University",
+    "short": "CU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B401",
+    "name": "A.g.m Rural College of Engineering and Technology",
+    "short": "GMRCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B402",
+    "name": "ACS College of Engineering",
+    "short": "ACE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B403",
+    "name": "Amara Jyothi Degree College",
+    "short": "AJDC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B407",
+    "name": "Dayananda Sagar Business Academy",
+    "short": "DSBA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B410",
+    "name": "KLE Lingaraj College Belgaum",
+    "short": "KLCB",
+    "city": "Belgaum",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B411",
+    "name": "MLA Academy of Higher Learning",
+    "short": "MAHL",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B412",
+    "name": "R G Institute of Management Studies",
+    "short": "RGIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B413",
+    "name": "RV University",
+    "short": "RU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B414",
+    "name": "Seshadripuram Degree College",
+    "short": "SDC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B415",
+    "name": "ST. Anthony's College",
+    "short": "SAC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B417",
+    "name": "Vaisiri Institute of Management and Technology",
+    "short": "VIMT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B419",
+    "name": "Vsm's Somashekhar R. Kothiwale Institute of Technology Nipani",
+    "short": "VSRKIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "B420",
+    "name": "Sharanbasva University.",
+    "short": "SU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MBA"
+  },
+  {
+    "code": "C401",
+    "name": "Acharya Institute of Management and Sciences",
+    "short": "AIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C402",
+    "name": "Acharya Institute of Graduate Studies",
+    "short": "AIGS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C403",
+    "name": "Administrative Management College",
+    "short": "AMC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C406",
+    "name": "AMC Engineering College",
+    "short": "AEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C407",
+    "name": "Angadi Institute of Technology and Management",
+    "short": "AITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C408",
+    "name": "B V V Sangha's Basaveshwar Engineering College",
+    "short": "BVVSBE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C409",
+    "name": "B.l.d.e.a's V.P DR P.g.halakatti College of Engg. & Tech",
+    "short": "BLDEVP",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C410",
+    "name": "Ballari Institute of Technology & Management",
+    "short": "BITM",
+    "city": "Bellary",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C411",
+    "name": "Bangalore Institute of Technology",
+    "short": "BIT",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C412",
+    "name": "Bangalore University",
+    "short": "BU",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C413",
+    "name": "Bapuji Institute of Engineering & Technology",
+    "short": "BIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C414",
+    "name": "BMS College of Engineering",
+    "short": "BCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C415",
+    "name": "BMS Institute of Technology & Management",
+    "short": "BITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C416",
+    "name": "Brindavan College",
+    "short": "BC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C417",
+    "name": "Cambridge Institute of Technology",
+    "short": "CIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C418",
+    "name": "City College",
+    "short": "CC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C420",
+    "name": "CMR Institute of Technology",
+    "short": "CIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C421",
+    "name": "Dayananda Sagar College of Arts",
+    "short": "DSCA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C422",
+    "name": "Dayananda Sagar College of Engineering",
+    "short": "DSCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C423",
+    "name": "Department of Computer Science Gulbarga University",
+    "short": "DCSGU",
+    "city": "Gulbarga",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C425",
+    "name": "DR. Ambedkar Institute of Technology",
+    "short": "AIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C426",
+    "name": "East West College of Management",
+    "short": "EWCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C428",
+    "name": "East West Institute of Technology",
+    "short": "EWIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C430",
+    "name": "Jain College of Engineering",
+    "short": "JCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C432",
+    "name": "Jyoti Nivas College",
+    "short": "JNC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C433",
+    "name": "K L E TECHNOLOGICAL UNIVERSITY.Belgaum campus",
+    "short": "KLETUB",
+    "city": "Belgaum",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C434",
+    "name": "K.l.s. Gogte Institute of Technology",
+    "short": "KLGIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C438",
+    "name": "KLE Society's S Nijalingappa College",
+    "short": "KSNC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C439",
+    "name": "K L E Technological University",
+    "short": "KLETU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C441",
+    "name": "Krupanidhi College of Management",
+    "short": "KCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C445",
+    "name": "M. S. Ramaiah Institute of Technology-mca",
+    "short": "MRIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C446",
+    "name": "Maharaja Institute of Technology",
+    "short": "MIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C449",
+    "name": "Global Institute of Management Science",
+    "short": "GIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C451",
+    "name": "Mount Carmel College",
+    "short": "MCC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C453",
+    "name": "NEW Horizon College of Engineering",
+    "short": "NHCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C456",
+    "name": "P.e.s College of Engineering",
+    "short": "PECE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C457",
+    "name": "PES University",
+    "short": "PU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C461",
+    "name": "Presidency College",
+    "short": "PC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C463",
+    "name": "R.v. College of Engineering",
+    "short": "RVCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C464",
+    "name": "Rajarajeswari College of Engineering",
+    "short": "RCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C466",
+    "name": "Reva University",
+    "short": "RU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C468",
+    "name": "RNS Institute of Technology",
+    "short": "RIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C469",
+    "name": "Bheemanna Khandre Institute of Technology",
+    "short": "BKIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C472",
+    "name": "Sambhram Academy of Management Studies",
+    "short": "SAMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C474",
+    "name": "Sbrr Mahajana First Grade College",
+    "short": "SMFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C476",
+    "name": "Shree Devi Institute of Technology",
+    "short": "SDIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C477",
+    "name": "Siddaganga Institute of Technology",
+    "short": "SIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C478",
+    "name": "SIR M. Visvesvaraya Institute of Technology",
+    "short": "SMVIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C480",
+    "name": "JSS Science and Technlogy University",
+    "short": "JSTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C481",
+    "name": "Srinivasa University",
+    "short": "SU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C482",
+    "name": "Srinivas Institute of Technology",
+    "short": "SIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C484",
+    "name": "ST. Joseph Engineering College",
+    "short": "SJEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C485",
+    "name": "Surana College",
+    "short": "SC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C486",
+    "name": "T John College",
+    "short": "TJC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C487",
+    "name": "T John Institute of Technology",
+    "short": "TJIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C488",
+    "name": "THE National Institute of Engineering",
+    "short": "NIE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C489",
+    "name": "THE Oxford College of Engineering -",
+    "short": "OCE-",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C490",
+    "name": "THE Oxford College of Science",
+    "short": "OCS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C494",
+    "name": "Vidya Vikas Institute of Engineering & Technology",
+    "short": "VVIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C495",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C496",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C497",
+    "name": "Visvesvaraya Technological University",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C498",
+    "name": "Visvesvaraya Technological University.",
+    "short": "VTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C500",
+    "name": "SRI Siddhartha Academy of Higher Education",
+    "short": "SSAHE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C501",
+    "name": "Jawaharlal Nehru NEW College of Engineering",
+    "short": "JNNCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C503",
+    "name": "Dayananda Sagar Academy of Technology and Management",
+    "short": "DSATM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C508",
+    "name": "Brindavan College of Engineering",
+    "short": "BCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C511",
+    "name": "Rani Channamma University",
+    "short": "RCU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C514",
+    "name": "Sharanbasva University.",
+    "short": "SU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C516",
+    "name": "ST. Francis College",
+    "short": "SFC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C517",
+    "name": "Atria Institute of Technology",
+    "short": "AIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C518",
+    "name": "Vivekananda College of Engineering and Technology",
+    "short": "VCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C519",
+    "name": "JSS College of Arts Commerce and Science",
+    "short": "JCACS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C520",
+    "name": "Dayananda Sagar University",
+    "short": "DSU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C521",
+    "name": "CMR University",
+    "short": "CU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C522",
+    "name": "SRI Jayachamarajendra College of Engineering",
+    "short": "SJCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C523",
+    "name": "Tumkur University",
+    "short": "TU",
+    "city": "Tumkur",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C524",
+    "name": "Acharya Institute of Technology",
+    "short": "AIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C525",
+    "name": "B N Bahadur Institute of Management",
+    "short": "BNBIM",
+    "city": "Mysore",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C526",
+    "name": "Christ Academy Institute for Advanced Studies",
+    "short": "CAIAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C527",
+    "name": "CMR University",
+    "short": "CU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C528",
+    "name": "Community Institute of Management Studies",
+    "short": "CIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C529",
+    "name": "Department of Management Studies",
+    "short": "DMS",
+    "city": "Bellary",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C531",
+    "name": "DR P.g.halakatti PG Center",
+    "short": "PGHPC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C532",
+    "name": "G.t. Institute of Management Studies and Research",
+    "short": "GTIMSR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C533",
+    "name": "Harsha Institute of Management Studies",
+    "short": "HIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C534",
+    "name": "JSS Academy of Technical Education",
+    "short": "JATE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C535",
+    "name": "Kle`s KLE College of Engineering and Technology",
+    "short": "KKCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C536",
+    "name": "Mangalore Institute of Technology & Engineering",
+    "short": "MITE",
+    "city": "Mangalore",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C538",
+    "name": "PES Institute of Technology & Management",
+    "short": "PITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C539",
+    "name": "SEA College of Science Commerce and Arts",
+    "short": "SCSCA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C540",
+    "name": "Secab Institute of Engineering & Technology",
+    "short": "SIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C541",
+    "name": "ST. Agnes College Autonomous",
+    "short": "SACA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C542",
+    "name": "Dhanwantari Academy for Management Studies",
+    "short": "DAMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C543",
+    "name": "THE Chanakya University",
+    "short": "CU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C544",
+    "name": "Maharaja Institute of Technology Thandavapura",
+    "short": "MITT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C545",
+    "name": "International School of Management Excellence",
+    "short": "ISME",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C546",
+    "name": "KISHKINDA University",
+    "short": "KU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C547",
+    "name": "SJB Institute of Technology",
+    "short": "SIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C548",
+    "name": "Akash Global College of Management and Science",
+    "short": "AGCMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C549",
+    "name": "Navkis College of Engineering",
+    "short": "NCE",
+    "city": "Hassan",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C550",
+    "name": "Akash Institute of Engineering and Technology",
+    "short": "AIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C551",
+    "name": "Amity University",
+    "short": "AU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C552",
+    "name": "Anjuman Institute of Technology and Management",
+    "short": "AITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C553",
+    "name": "Atme College of Engineering",
+    "short": "ACE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C554",
+    "name": "Bagalkote University",
+    "short": "BU",
+    "city": "Bagalkote",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C555",
+    "name": "Bangalore Integrated Management Academy",
+    "short": "BIMA",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C556",
+    "name": "Canara College",
+    "short": "CC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C557",
+    "name": "Cauvery Institute of Technology",
+    "short": "CIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C558",
+    "name": "Chamarajanagara University",
+    "short": "CU",
+    "city": "Chamarajanagar",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C559",
+    "name": "City Engineering College",
+    "short": "CEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C560",
+    "name": "Constituent Colege of VTU",
+    "short": "CCV",
+    "city": "Karnataka",
+    "type": "Government",
+    "branch": "MCA"
+  },
+  {
+    "code": "C561",
+    "name": "Davangere University",
+    "short": "DU",
+    "city": "Davanagere",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C562",
+    "name": "Department of Computer Science",
+    "short": "DCS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C563",
+    "name": "Department of MCA",
+    "short": "DM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C564",
+    "name": "Department of MCA",
+    "short": "DM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C565",
+    "name": "Department of PG Studies and Research in Computer Science",
+    "short": "DPSRCS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C566",
+    "name": "Department of Studies and Research in Computer Application",
+    "short": "DSRCA",
+    "city": "Tumkur",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C567",
+    "name": "East Point College of Higher Education",
+    "short": "EPCHE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C568",
+    "name": "GM University",
+    "short": "GU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C569",
+    "name": "GS College of Management",
+    "short": "GCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C570",
+    "name": "Guru Nanak DEV Engineering College",
+    "short": "GNDEC",
+    "city": "Bidar",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C571",
+    "name": "Maharani's Cluster University",
+    "short": "MCU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C572",
+    "name": "Nagarjuna Degree College",
+    "short": "NDC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C573",
+    "name": "Parivarthana Business School",
+    "short": "PBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C574",
+    "name": "Poornaprajna Institute of Management",
+    "short": "PIM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C575",
+    "name": "PRESIDENCY University",
+    "short": "PU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C576",
+    "name": "RV Institute of Technology and Management",
+    "short": "RITM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C577",
+    "name": "Seshadripuram College",
+    "short": "SC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C578",
+    "name": "Seshadripuram College Tumakuru",
+    "short": "SCT",
+    "city": "Tumkur",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C579",
+    "name": "ST Philomena's College",
+    "short": "SPC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C580",
+    "name": "VTU Post Graduate Center and Skill Development Center Talakal",
+    "short": "VPGCSD",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C581",
+    "name": "A P S College of Engineering",
+    "short": "PCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C582",
+    "name": "A. J. Institute of Engineering and Technology Mangaluru",
+    "short": "JIETM",
+    "city": "Mangalore",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C583",
+    "name": "Aditya College of Engineering and Technology",
+    "short": "ACET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C584",
+    "name": "Alliance University",
+    "short": "AU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C585",
+    "name": "Chetan Business School Institute of Management & Research",
+    "short": "CBSIMR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C587",
+    "name": "Daksha First Grade College",
+    "short": "DFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C588",
+    "name": "DR H N National College of Engineering",
+    "short": "HNNCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C589",
+    "name": "G Madegowda Institute of Technology",
+    "short": "GMIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C590",
+    "name": "JSS Shri Manjunatheshwara MCA Institute",
+    "short": "JSMMI",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C591",
+    "name": "K.s.institute of Technology",
+    "short": "KIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C592",
+    "name": "M S Ramaiah College of Arts",
+    "short": "MRCA",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C593",
+    "name": "Moodlakatte Institute of Technology",
+    "short": "MIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C594",
+    "name": "MPE Societys SDM College of Arts Science and Commerce Honnavar",
+    "short": "MSSCAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C595",
+    "name": "MVM College of Arts Science and Management",
+    "short": "MCASM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C596",
+    "name": "Oxford College",
+    "short": "OC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C597",
+    "name": "RAO Bahadur Y Mahabaleswarappa Engineering College",
+    "short": "RBYMEC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C598",
+    "name": "Rathinam School of Business",
+    "short": "RSB",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C599",
+    "name": "RJS First Grade College",
+    "short": "RFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C600",
+    "name": "Sapthagiri NPS University",
+    "short": "SNU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C601",
+    "name": "SB College of Management Studies",
+    "short": "SCMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C602",
+    "name": "Seshadripuram First Grade College",
+    "short": "SFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C603",
+    "name": "Shridevi Institute of Engineering and Technology",
+    "short": "SIET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C604",
+    "name": "SRI Kongadiyappa College",
+    "short": "SKC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C605",
+    "name": "SRI Venkateshwara College of Engineering",
+    "short": "SVCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C606",
+    "name": "ST Francis DE Sales College",
+    "short": "SFDSC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C607",
+    "name": "ST Philomena College Puttur",
+    "short": "SPCP",
+    "city": "Dakshina Kannada",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C608",
+    "name": "THE National College",
+    "short": "NC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C610",
+    "name": "United International Business School",
+    "short": "UIBS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C612",
+    "name": "Vidhya Shekhar Institution of Management Studies",
+    "short": "VSIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C613",
+    "name": "Vidyavardhaka College of Engineering",
+    "short": "VCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C614",
+    "name": "Cauvery College of Management",
+    "short": "CCM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C615",
+    "name": "Constituent Colege of VTU",
+    "short": "CCV",
+    "city": "Karnataka",
+    "type": "Government",
+    "branch": "MCA"
+  },
+  {
+    "code": "C616",
+    "name": "M S Centre for Advanced Studies",
+    "short": "MCAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C617",
+    "name": "Karnataka State Rural Development & Panchayat RAJ University",
+    "short": "KSRDPR",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C618",
+    "name": "Vasavi Jnana Peetha First Grade College",
+    "short": "VJPFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C619",
+    "name": "Soundarya Institute of Management and Science",
+    "short": "SIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C620",
+    "name": "A.g.m Rural College of Engineering and Technology",
+    "short": "GMRCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C621",
+    "name": "Acharya's Bangalore B-school",
+    "short": "ABB",
+    "city": "Bangalore",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C622",
+    "name": "ACS College of Engineering",
+    "short": "ACE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C623",
+    "name": "Anuvartik Mirji Bharatesh Institute of Technology",
+    "short": "AMBIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C624",
+    "name": "Arihant Institute of Commerce and Management",
+    "short": "AICM",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C625",
+    "name": "Channabasaveshwara Institute of Technology",
+    "short": "CIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C626",
+    "name": "DON Bosco Institute of Management Studies and Computer",
+    "short": "DBIMSC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C627",
+    "name": "K L E Societys P C Jabin Science College Hubballi",
+    "short": "KLESPC",
+    "city": "Hubli",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C628",
+    "name": "KLE Society College of BCA RLS Institute Belagavi",
+    "short": "KSCBRI",
+    "city": "Belgaum",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C629",
+    "name": "Koshys Institute of Management Studies",
+    "short": "KIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C630",
+    "name": "M. S. Ramaiah University of Applied Sciences",
+    "short": "MRUAS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C631",
+    "name": "Malnad College of Engineering",
+    "short": "MCE",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C632",
+    "name": "Nagarjuna College of Engineering and Technology",
+    "short": "NCET",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C633",
+    "name": "Padmashree Institute of Management and Sciences",
+    "short": "PIMS",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C634",
+    "name": "RAI Technology University",
+    "short": "RTU",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C635",
+    "name": "ST. Claret College",
+    "short": "SCC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C636",
+    "name": "S. S. E. T'S S. G. Balekundri Institute of Technology",
+    "short": "ETGBIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C637",
+    "name": "Vidyavardhaka First Grade College",
+    "short": "VFGC",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C638",
+    "name": "Vsm's Somashekhar R. Kothiwale Institute of Technology Nipani",
+    "short": "VSRKIT",
+    "city": "Karnataka",
+    "type": "Private",
+    "branch": "MCA"
+  },
+  {
+    "code": "C639",
+    "name": "Bengaluru City Univerity",
+    "short": "BCU",
+    "city": "Bangalore",
+    "type": "Government",
+    "branch": "MCA"
+  }
+]

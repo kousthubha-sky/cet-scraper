@@ -1,0 +1,96 @@
+{
+  "year": 2025,
+  "source": "KEA PGCET-2025 round-wise allotment cut-off ranks (Rest of Karnataka)",
+  "coverage": [
+    {
+      "branch": "MBA",
+      "round": "R2",
+      "roundName": "Round 2"
+    },
+    {
+      "branch": "MCA",
+      "round": "R1",
+      "roundName": "Round 1"
+    }
+  ],
+  "branches": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration"
+    },
+    {
+      "code": "MCA",
+      "name": "Master of Computer Applications"
+    }
+  ],
+  "categories": [
+    {
+      "code": "GM",
+      "name": "General Merit"
+    },
+    {
+      "code": "1G",
+      "name": "Category 1"
+    },
+    {
+      "code": "2AG",
+      "name": "Category 2A"
+    },
+    {
+      "code": "2BG",
+      "name": "Category 2B"
+    },
+    {
+      "code": "3AG",
+      "name": "Category 3A"
+    },
+    {
+      "code": "3BG",
+      "name": "Category 3B"
+    },
+    {
+      "code": "SCG",
+      "name": "Scheduled Caste"
+    },
+    {
+      "code": "STG",
+      "name": "Scheduled Tribe"
+    },
+    {
+      "code": "NKN",
+      "name": "NKN"
+    }
+  ],
+  "rounds": [
+    {
+      "code": "R2",
+      "name": "Round 2"
+    },
+    {
+      "code": "R1",
+      "name": "Round 1"
+    }
+  ],
+  "cities": [
+    "Bagalkote",
+    "Bangalore",
+    "Belgaum",
+    "Bellary",
+    "Bidar",
+    "Chamarajanagar",
+    "Dakshina Kannada",
+    "Davanagere",
+    "Gulbarga",
+    "Hassan",
+    "Hubli",
+    "Karnataka",
+    "Mangalore",
+    "Mysore",
+    "Raichur",
+    "Tumkur"
+  ],
+  "collegeTypes": [
+    "Government",
+    "Private"
+  ]
+}

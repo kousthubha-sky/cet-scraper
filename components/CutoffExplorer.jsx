@@ -18,9 +18,9 @@ import { formatRank } from "@/lib/format";
  * groupBy="college" → branch page (rows across colleges for one branch)
  * groupBy="branch"  → college page (rows across branches for one college)
  */
-export function CutoffExplorer({ rows, taxonomy, groupBy = "college" }) {
+export function CutoffExplorer({ rows, taxonomy, groupBy = "college", basePath = "", defaultRound = "R1" }) {
   const [category, setCategory] = useState("GM");
-  const [round, setRound] = useState("R1");
+  const [round, setRound] = useState(defaultRound);
 
   const filtered = useMemo(
     () =>
@@ -86,7 +86,7 @@ export function CutoffExplorer({ rows, taxonomy, groupBy = "college" }) {
                   <>
                     <TableCell>
                       <Link
-                        href={`/colleges/${r.collegeCode}`}
+                        href={`${basePath}/colleges/${r.collegeCode}`}
                         className="font-medium hover:text-primary"
                       >
                         {r.short}
@@ -100,7 +100,7 @@ export function CutoffExplorer({ rows, taxonomy, groupBy = "college" }) {
                 ) : (
                   <TableCell>
                     <Link
-                      href={`/branches/${r.branch}`}
+                      href={`${basePath}/branches/${r.branch}`}
                       className="hover:text-primary"
                     >
                       <span className="font-mono text-xs text-muted-foreground">
