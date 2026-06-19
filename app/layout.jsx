@@ -10,7 +10,7 @@ export const metadata = {
   title: {
     default:
       "KCET College Finder 2026 — Predict Colleges by Rank, Branch & 2025 Cutoffs",
-    template: "%s · KCET College Finder",
+    template: "%s · KCET & PGCET Finder",
   },
   description:
     "Free KCET college predictor for Karnataka CET 2026. Enter your KCET rank and category to instantly find engineering colleges you can get, with genuine KEA 2025 round-wise closing ranks (Rounds 1–3), branch explorer and side-by-side college compare.",
@@ -26,6 +26,9 @@ export const metadata = {
     "KCET 2025 cutoff rank",
     "engineering college predictor Karnataka",
     "KCET option entry colleges",
+    "PGCET 2025 cutoff",
+    "Karnataka PGCET MBA MCA",
+    "PGCET college predictor",
   ],
   applicationName: SITE_NAME,
   authors: [{ name: "kousthubha.me", url: "https://kousthubha.me" }],
@@ -77,7 +80,7 @@ const siteJsonLd = {
       url: SITE_URL,
       name: SITE_NAME,
       description:
-        "Predict Karnataka engineering colleges by your KCET rank with genuine KEA 2025 cutoffs.",
+        "Predict Karnataka KCET engineering and PGCET (MBA/MCA) colleges by your rank with genuine KEA 2025 cutoffs.",
       inLanguage: "en-IN",
       potentialAction: {
         "@type": "SearchAction",
