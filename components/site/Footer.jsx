@@ -3,7 +3,10 @@ import Link from "next/link";
 export function Footer() {
   return (
     <footer className="border-t border-border bg-card-soft">
-      <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-muted-foreground sm:px-6">
+      {/* Extra bottom padding on mobile clears the fixed bottom tab bar (its
+          height + safe-area inset) so the disclaimer + copyright aren't hidden
+          behind it; normal padding on sm+ where the bar is gone. */}
+      <div className="mx-auto max-w-6xl px-4 pt-8 pb-[calc(6rem+env(safe-area-inset-bottom))] text-sm text-muted-foreground sm:px-6 sm:pb-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-md">
             KCET College Finder — a free tool to explore Karnataka engineering

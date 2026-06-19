@@ -26,7 +26,7 @@ export const metadata = {
     "KCET 2025 cutoff rank",
     "engineering college predictor Karnataka",
     "KCET option entry colleges",
-    "PGCET 2025 cutoff",
+    "PGCET 2026 cutoff",
     "Karnataka PGCET MBA MCA",
     "PGCET college predictor",
   ],
@@ -118,7 +118,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="font-sans antialiased flex flex-col text-foreground">
         <Navbar />
-        <main className="flex-1 pb-24 sm:pb-0">{children}</main>
+        <main className="flex-1">{children}</main>
         <Footer />
         <JsonLd data={siteJsonLd} />
         <Analytics />

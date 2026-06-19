@@ -38,7 +38,7 @@ export default async function PgcetPredictPage({ searchParams }) {
     <div className="mx-auto max-w-6xl px-4 py-8">
       <div className="mb-6">
         <span className="font-mono text-xs font-semibold uppercase tracking-[0.15em] text-gradient">
-          PGCET 2025 · Karnataka
+          PGCET 2026 · Karnataka
         </span>
         <h1 className="mt-1 text-3xl font-extrabold tracking-tight sm:text-4xl">
           PGCET college predictor

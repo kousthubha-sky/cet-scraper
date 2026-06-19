@@ -4,7 +4,7 @@ import { CollegeSearch } from "@/components/CollegeSearch";
 export const metadata = {
   title: "PGCET MBA & MCA Colleges — Karnataka 2025 Cutoffs",
   description:
-    "Search and browse Karnataka PGCET colleges for MBA and MCA. Open any college to see its category-wise PGCET 2025 closing ranks.",
+    "Search and browse Karnataka PGCET colleges for MBA and MCA. Open any college to see its category-wise PGCET 2026 closing ranks.",
   alternates: { canonical: "/pgcet/colleges" },
 };
 

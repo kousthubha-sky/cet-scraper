@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "PGCET College Finder 2025 — predict Karnataka MBA & MCA colleges by your PGCET rank";
+  "PGCET College Finder 2026 — predict Karnataka MBA & MCA colleges by your PGCET rank";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -30,7 +30,7 @@ export default function Image() {
             textTransform: "uppercase",
           }}
         >
-          PGCET 2025 · MBA &amp; MCA Finder
+          PGCET 2026 · MBA &amp; MCA Finder
         </div>
         <div
           style={{

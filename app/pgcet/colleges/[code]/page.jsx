@@ -16,7 +16,7 @@ export async function generateMetadata({ params }) {
   if (!college) return {};
   return {
     title: `${college.name} — PGCET ${college.branch} 2025 Cutoffs`,
-    description: `${college.name} (${college.city}): PGCET 2025 ${college.branch} closing ranks by category. Check if your PGCET rank can get you in.`,
+    description: `${college.name} (${college.city}): PGCET 2026 ${college.branch} closing ranks by category. Check if your PGCET rank can get you in.`,
     alternates: { canonical: `/pgcet/colleges/${code}` },
   };
 }

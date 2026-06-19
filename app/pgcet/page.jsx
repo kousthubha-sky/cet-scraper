@@ -7,19 +7,19 @@ import { formatRank } from "@/lib/format";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata = {
-  title: "PGCET College Finder 2025 — Predict MBA & MCA Colleges by Rank or Marks",
+  title: "PGCET College Finder 2026 — Predict MBA & MCA Colleges by Rank or Marks",
   description:
-    "Free Karnataka PGCET 2025 college predictor. Enter your PGCET rank or marks to find MBA and MCA colleges you can get — genuine KEA round-wise closing ranks (MBA Round 2, MCA Round 1, Rest of Karnataka), programme explorer and side-by-side compare.",
+    "Free Karnataka PGCET 2026 college predictor. Enter your PGCET rank or marks to find MBA and MCA colleges you can get — genuine KEA round-wise closing ranks (MBA Round 2, MCA Round 1, Rest of Karnataka), programme explorer and side-by-side compare.",
   keywords: [
-    "PGCET 2025 cutoff",
-    "PGCET 2025 cutoff rank",
+    "PGCET 2026 cutoff",
+    "PGCET 2026 cutoff rank",
     "Karnataka PGCET",
     "PGCET MBA cutoff 2025",
     "PGCET MCA cutoff 2025",
     "PGCET college predictor",
     "PGCET rank predictor",
     "PGCET marks vs rank",
-    "KEA PGCET 2025",
+    "KEA PGCET 2026",
     "PGCET MBA colleges Karnataka",
     "PGCET MCA colleges Karnataka",
     "Karnataka PGCET college finder",
@@ -27,7 +27,7 @@ export const metadata = {
   ],
   alternates: { canonical: "/pgcet" },
   openGraph: {
-    title: "PGCET College Finder 2025 — MBA & MCA Colleges by Rank",
+    title: "PGCET College Finder 2026 — MBA & MCA Colleges by Rank",
     description:
       "Predict Karnataka PGCET MBA & MCA colleges by your rank or marks — genuine KEA 2025 closing ranks, Safe/Target/Reach.",
     url: "/pgcet",
@@ -113,7 +113,7 @@ export default function PgcetHome() {
 
       <section className="mx-auto max-w-2xl px-6 pt-14 pb-8 text-center sm:pt-20">
         <span className="font-mono text-xs font-semibold uppercase tracking-[0.15em] text-gradient">
-          PGCET 2025 · MBA & MCA
+          PGCET 2026 · MBA & MCA
         </span>
         <h1 className="mt-5 text-[2.5rem] font-semibold leading-[1.05] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
           Got your PGCET rank?
