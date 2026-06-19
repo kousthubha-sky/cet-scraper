@@ -17,7 +17,7 @@ import { CHANCE } from "@/lib/eligibility";
 import { formatRank } from "@/lib/format";
 import { cn } from "@/lib/utils";
 
-export function PredictResults({ matches, summary, taxonomy }) {
+export function PredictResults({ matches, summary, taxonomy, basePath = "" }) {
   const [branch, setBranch] = useState([]); // selected branch codes
   const [city, setCity] = useState("all");
   const [type, setType] = useState("all");
@@ -144,7 +144,7 @@ export function PredictResults({ matches, summary, taxonomy }) {
         {filtered.map((m) => (
           <Link
             key={`${m.collegeCode}-${m.branch}`}
-            href={`/colleges/${m.collegeCode}`}
+            href={`${basePath}/colleges/${m.collegeCode}`}
             className="glass pressable flex items-center gap-3 rounded-2xl border border-border/50 p-4"
           >
             <div className="min-w-0 flex-1">
@@ -199,7 +199,7 @@ export function PredictResults({ matches, summary, taxonomy }) {
               >
                 <TableCell>
                   <Link
-                    href={`/colleges/${m.collegeCode}`}
+                    href={`${basePath}/colleges/${m.collegeCode}`}
                     className="font-semibold hover:text-primary"
                   >
                     {m.short}

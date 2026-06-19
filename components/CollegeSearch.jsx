@@ -6,7 +6,7 @@ import { Search, MapPin } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select } from "@/components/ui/select";
 
-export function CollegeSearch({ colleges, cities, types }) {
+export function CollegeSearch({ colleges, cities, types, basePath = "" }) {
   const [q, setQ] = useState("");
   const [city, setCity] = useState("all");
   const [type, setType] = useState("all");
@@ -66,7 +66,7 @@ export function CollegeSearch({ colleges, cities, types }) {
         {filtered.map((c) => (
           <Link
             key={c.code}
-            href={`/colleges/${c.code}`}
+            href={`${basePath}/colleges/${c.code}`}
             className="group glass pressable rounded-2xl border border-border/50 p-5 hover:border-primary/40 hover:shadow-ios"
           >
             <div className="flex items-center justify-between">

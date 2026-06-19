@@ -16,10 +16,10 @@ import { Select } from "@/components/ui/select";
 import { formatRank } from "@/lib/format";
 import { cn } from "@/lib/utils";
 
-export function CompareView({ colleges, colA, colB, taxonomy }) {
+export function CompareView({ colleges, colA, colB, taxonomy, basePath = "", defaultRound = "R1" }) {
   const router = useRouter();
   const [category, setCategory] = useState("GM");
-  const [round, setRound] = useState("R1");
+  const [round, setRound] = useState(defaultRound);
 
   const setPick = (slot, code) => {
     const params = new URLSearchParams();
@@ -27,7 +27,7 @@ export function CompareView({ colleges, colA, colB, taxonomy }) {
     const b = slot === "b" ? code : colB?.code;
     if (a) params.set("a", a);
     if (b) params.set("b", b);
-    router.push(`/compare?${params.toString()}`);
+    router.push(`${basePath}/compare?${params.toString()}`);
   };
 
   const collegeOptions = [
@@ -59,7 +59,7 @@ export function CompareView({ colleges, colA, colB, taxonomy }) {
   return (
     <div className="space-y-5">
       <div className="grid gap-3 sm:grid-cols-2">
-        <PickerCard label="College A" college={colA}>
+        <PickerCard label="College A" college={colA} basePath={basePath}>
           <Select
             aria-label="College A"
             value={colA?.code || ""}
@@ -67,7 +67,7 @@ export function CompareView({ colleges, colA, colB, taxonomy }) {
             options={collegeOptions}
           />
         </PickerCard>
-        <PickerCard label="College B" college={colB}>
+        <PickerCard label="College B" college={colB} basePath={basePath}>
           <Select
             aria-label="College B"
             value={colB?.code || ""}
@@ -162,14 +162,14 @@ export function CompareView({ colleges, colA, colB, taxonomy }) {
   );
 }
 
-function PickerCard({ label, college, children }) {
+function PickerCard({ label, college, children, basePath = "" }) {
   return (
     <div className="glass rounded-2xl border border-border/50 p-4">
       <div className="mb-2 flex items-center justify-between">
         <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">{label}</span>
         {college && (
           <Link
-            href={`/colleges/${college.code}`}
+            href={`${basePath}/colleges/${college.code}`}
             className="text-xs text-primary hover:underline"
           >
             View →
