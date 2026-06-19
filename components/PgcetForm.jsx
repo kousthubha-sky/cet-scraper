@@ -91,7 +91,9 @@ export function PgcetForm({ taxonomy, defaults = {} }) {
             value={marks}
             onChange={(e) => {
               const v = e.target.value.replace(/[^0-9]/g, "");
-              setMarks(v === "" ? "" : String(Math.min(100, parseInt(v, 10))));
+              // PGCET tops out at ~75 (both MBA & MCA) — clamp there, not 100,
+              // so an impossible 3-4 digit "mark" can't masquerade as a topper.
+              setMarks(v === "" ? "" : String(Math.min(75, parseInt(v, 10))));
             }}
             className="text-lg"
           />

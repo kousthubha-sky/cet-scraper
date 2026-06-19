@@ -37,10 +37,18 @@ export function CompareView({ colleges, colA, colB, taxonomy, basePath = "", def
 
   const rows = useMemo(() => {
     if (!colA || !colB) return [];
-    const pick = (col, branch) =>
-      col.cutoffs.find(
-        (r) => r.branch === branch && r.category === category && r.round === round
-      )?.closingRank ?? null;
+    // PGCET publishes one round per programme (MBA ⇒ R2, MCA ⇒ R1), so a single
+    // global round blanks whichever programme isn't in the picked round. When a
+    // branch+category has just one round of data, show it regardless of the
+    // picker; with multiple rounds (KCET) keep the exact-round match so we never
+    // silently mix rounds.
+    const pick = (col, branch) => {
+      const rowsFor = col.cutoffs.filter(
+        (r) => r.branch === branch && r.category === category
+      );
+      if (rowsFor.length <= 1) return rowsFor[0]?.closingRank ?? null;
+      return rowsFor.find((r) => r.round === round)?.closingRank ?? null;
+    };
     const branchCodes = [
       ...new Set([
         ...colA.cutoffs.map((r) => r.branch),

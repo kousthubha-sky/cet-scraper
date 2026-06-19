@@ -20,17 +20,31 @@ export default async function PgcetPredictPage({ searchParams }) {
 
   const branch = branchCodes.includes(sp.branch) ? sp.branch : branchCodes[0];
   const category = taxonomy.categories.some((c) => c.code === sp.category) ? sp.category : "GM";
-  const round = taxonomy.rounds.some((r) => r.code === sp.round) ? sp.round : roundForBranch(branch);
+  const branchRows = getPgcetCutoffs().filter((r) => r.branch === branch);
+
+  // PGCET publishes one round per programme (MBA ⇒ R2, MCA ⇒ R1). Validate the
+  // requested round, then fall back to the programme's published round when it
+  // has no rows for that round — otherwise a mismatched pick (e.g. MCA + Round
+  // 2) shows an empty list for a programme we actually have data for.
+  const reqRound = taxonomy.rounds.some((r) => r.code === sp.round) ? sp.round : roundForBranch(branch);
+  const round = branchRows.some((r) => r.round === reqRound) ? reqRound : roundForBranch(branch);
   const roundName = taxonomy.rounds.find((r) => r.code === round)?.name || round;
   const catName = taxonomy.categories.find((c) => c.code === category)?.name || category;
 
-  const rankInput = parseInt(sp.rank, 10) || null;
-  const marksInput = !rankInput ? parseInt(sp.marks, 10) || null : null;
+  // Reject non-positive / non-numeric (incl. hand-typed URLs like ?rank=-5).
+  // Marks are clamped to PGCET's ~75 ceiling so an out-of-range value can't
+  // come back as a topper.
+  const toPos = (x) => {
+    const n = parseInt(x, 10);
+    return Number.isFinite(n) && n > 0 ? n : null;
+  };
+  const rankInput = toPos(sp.rank);
+  const marksRaw = rankInput ? null : toPos(sp.marks);
+  const marksInput = marksRaw ? Math.min(75, marksRaw) : null;
   const estimatedRank = marksInput ? estimateRankFromMarks(marksInput, branch) : null;
   const rank = rankInput || estimatedRank;
   const isEstimate = !rankInput && estimatedRank != null;
 
-  const branchRows = getPgcetCutoffs().filter((r) => r.branch === branch);
   const matches = rank ? predict(branchRows, { rank, category, round }) : [];
   const summary = rank ? summarize(matches) : null;
 

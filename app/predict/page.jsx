@@ -16,7 +16,10 @@ export default async function PredictPage({ searchParams }) {
   const taxonomy = getTaxonomy();
   const year = dataYear();
 
-  const rank = parseInt(sp.rank, 10) || null;
+  // Reject non-positive / non-numeric ranks (e.g. a hand-typed ?rank=-5 URL);
+  // parseInt("-5") is truthy, so a bare `|| null` would let it through.
+  const parsedRank = parseInt(sp.rank, 10);
+  const rank = Number.isFinite(parsedRank) && parsedRank > 0 ? parsedRank : null;
   const category = sp.category || "GM";
   const round = sp.round || taxonomy.rounds[0]?.code || "R2";
 
