@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 export const metadata = {
   title: "PGCET College Finder 2026 — Predict MBA & MCA Colleges by Rank or Marks",
   description:
-    "Free Karnataka PGCET 2026 college predictor. Enter your PGCET rank or marks to find MBA and MCA colleges you can get — genuine KEA round-wise closing ranks (MBA Round 2, MCA Round 1, Rest of Karnataka), programme explorer and side-by-side compare.",
+    "Free Karnataka PGCET 2026 college predictor. Enter your PGCET rank or marks to find MBA and MCA colleges you can get — genuine KEA round-wise closing ranks (MCA Rounds 1 & 2, MBA Round 2, Rest of Karnataka), programme explorer and side-by-side compare.",
   keywords: [
     "PGCET 2026 cutoff",
     "PGCET 2026 cutoff rank",
@@ -57,6 +57,7 @@ export default function PgcetHome() {
   };
   const mba = gmRange("MBA", "R2");
   const mca = gmRange("MCA", "R1");
+  const mcaR2 = gmRange("MCA", "R2");
 
   const cards = [
     { href: "/pgcet/predict", icon: Target, title: "Predict by rank or marks", desc: "Enter your PGCET rank — or just your marks — and see MBA/MCA colleges within reach, Safe → Target → Reach." },
@@ -72,7 +73,7 @@ export default function PgcetHome() {
     },
     {
       q: `What were the PGCET ${year} cutoffs for MBA and MCA?`,
-      a: `Genuine KEA closing ranks (General Merit, Rest of Karnataka): MBA Round 2 ranged from about ${formatRank(mba?.best)} (most competitive) to ${formatRank(mba?.worst)}, and MCA Round 1 from about ${formatRank(mca?.best)} to ${formatRank(mca?.worst)}, across ${colleges.length} colleges. Open the predictor or a programme page for exact category-wise ranks.`,
+      a: `Genuine KEA closing ranks (General Merit, Rest of Karnataka): MBA Round 2 ranged from about ${formatRank(mba?.best)} (most competitive) to ${formatRank(mba?.worst)}; MCA Round 1 from about ${formatRank(mca?.best)} to ${formatRank(mca?.worst)}, and MCA Round 2 from about ${formatRank(mcaR2?.best)} to ${formatRank(mcaR2?.worst)} — across ${colleges.length} colleges. Open the predictor or a programme page for exact category-wise ranks.`,
     },
     {
       q: "How do I predict my PGCET college by rank — or by marks?",
@@ -84,7 +85,7 @@ export default function PgcetHome() {
     },
     {
       q: "Is this PGCET cutoff data official?",
-      a: "The closing ranks are KEA's published PGCET-2025 round-wise allotment cut-offs (Rest of Karnataka) — MBA Round 2 and MCA Round 1. The optional marks-to-rank figure is an approximate, candidate-reported estimate. Always verify on the official KEA site (cetonline.karnataka.gov.in) before option entry.",
+      a: "The closing ranks are KEA's published PGCET-2025 round-wise allotment cut-offs (Rest of Karnataka) — MCA Rounds 1 & 2 and MBA Round 2. The optional marks-to-rank figure is an approximate, candidate-reported estimate. Always verify on the official KEA site (cetonline.karnataka.gov.in) before option entry.",
     },
   ];
 
@@ -144,7 +145,7 @@ export default function PgcetHome() {
 
         <p className="mt-4 flex items-center justify-center gap-1.5 text-center text-xs text-muted-foreground">
           <ShieldCheck className="size-3.5 text-success" />
-          Genuine KEA {year} cut-offs · MBA Round 2 · MCA Round 1 · always verify on KEA
+          Genuine KEA {year} cut-offs · MCA R1 &amp; R2 · MBA R2 · always verify on KEA
         </p>
       </section>
 
@@ -190,7 +191,7 @@ export default function PgcetHome() {
             (KEA)</strong>, is the entrance exam for MBA, MCA and M.Tech admissions in Karnataka.
             This finder covers <strong className="text-foreground">MBA and MCA</strong> across{" "}
             {colleges.length} colleges, using KEA&apos;s genuine {year} round-wise allotment cut-off
-            ranks (Rest of Karnataka) — MBA Round 2 and MCA Round 1. Enter a rank for an exact match,
+            ranks (Rest of Karnataka) — MCA Rounds 1 &amp; 2 and MBA Round 2. Enter a rank for an exact match,
             or marks for an estimate, and sort colleges Safe, Target and Reach.
           </p>
         </div>

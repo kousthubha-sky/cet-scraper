@@ -28,7 +28,6 @@ export default async function PgcetBranchPage({ params }) {
   if (!branch) notFound();
   const taxonomy = getPgcetTaxonomy();
   const year = pgcetDataYear();
-  const roundName = taxonomy.coverage.find((c) => c.branch === code)?.roundName;
   const defaultRound = roundForBranch(code) || "R1";
 
   const jsonLd = {
@@ -55,7 +54,7 @@ export default async function PgcetBranchPage({ params }) {
         <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{branch.name}</h1>
         <p className="mt-2 text-sm text-muted-foreground">
           <span className="font-mono">{branch.code}</span> · colleges offering this
-          programme, by closing rank · {roundName} · {year} data
+          programme, by closing rank · {year} data
         </p>
       </div>
 

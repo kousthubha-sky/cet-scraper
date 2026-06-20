@@ -20,7 +20,21 @@ import { formatRank } from "@/lib/format";
  */
 export function CutoffExplorer({ rows, taxonomy, groupBy = "college", basePath = "", defaultRound = "R1" }) {
   const [category, setCategory] = useState("GM");
-  const [round, setRound] = useState(defaultRound);
+  // Round options come from the rounds actually present in these rows (a
+  // programme/college may hold only some rounds), defaulting to the latest.
+  const roundNum = (r) => parseInt(String(r).replace(/\D/g, ""), 10) || 0;
+  const availableRounds = useMemo(() => {
+    const codes = [...new Set(rows.map((r) => r.round))].sort((a, b) => roundNum(a) - roundNum(b));
+    return codes.map((code) => ({
+      code,
+      name: taxonomy.rounds.find((r) => r.code === code)?.name || code,
+    }));
+  }, [rows, taxonomy]);
+  const [round, setRound] = useState(
+    availableRounds.some((r) => r.code === defaultRound)
+      ? defaultRound
+      : availableRounds.at(-1)?.code || defaultRound
+  );
 
   const filtered = useMemo(
     () =>
@@ -53,7 +67,7 @@ export function CutoffExplorer({ rows, taxonomy, groupBy = "college", basePath =
             value={round}
             onChange={setRound}
             className="w-44"
-            options={taxonomy.rounds.map((r) => ({ value: r.code, label: r.name }))}
+            options={availableRounds.map((r) => ({ value: r.code, label: r.name }))}
           />
         </label>
         <span className="ml-auto self-center text-xs font-medium text-muted-foreground">

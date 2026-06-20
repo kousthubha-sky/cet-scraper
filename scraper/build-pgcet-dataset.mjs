@@ -7,10 +7,10 @@
  * whole app's components can drive a PGCET mode unchanged — the programme
  * (MBA / MCA) plays the role of "branch". GENUINE PGCET-2025 allotment cut-off
  * ranks; coverage is exactly what KEA released as *cut-off* PDFs:
- *   • MCA — Round 1   (first round mca.pdf)
- *   • MBA — Round 2   (second round mba.pdf)
- * The other PGCET PDFs are SEAT MATRICES (not ranks) and are not ingested. No
- * rounds are fabricated.
+ *   • MCA — Round 1 + Round 2   (first round mca.pdf, second round mca cutoff.pdf)
+ *   • MBA — Round 2             (second round mba.pdf)
+ * The other PGCET PDFs are SEAT MATRICES (seat counts, not ranks) or MOCK
+ * allotment trials and are not ingested. No rounds are fabricated.
  *
  *   node scraper/build-pgcet-dataset.mjs   (npm run data:pgcet)
  */
@@ -31,7 +31,11 @@ const YEAR = 2025;
 const SOURCES = [
   { branch: "MBA", round: "R2", roundName: "Round 2", file: process.env.PGCET_MBA_R2 || path.join(srcDir, "second round mba.pdf") },
   { branch: "MCA", round: "R1", roundName: "Round 1", file: process.env.PGCET_MCA_R1 || path.join(srcDir, "first round mca.pdf") },
+  { branch: "MCA", round: "R2", roundName: "Round 2", file: process.env.PGCET_MCA_R2 || path.join(srcDir, "second round mca cutoff.pdf") },
 ];
+
+// "R2" -> 2, for ordering rounds chronologically.
+const roundNum = (r) => parseInt(String(r).replace(/\D/g, ""), 10) || 0;
 
 const BRANCH_NAMES = {
   MBA: "Master of Business Administration",
@@ -120,10 +124,11 @@ const taxonomy = {
     code,
     name: CATEGORY_NAMES[code] || code,
   })),
-  rounds: SOURCES.filter((s) => offeredRounds.includes(s.round)).map((s) => ({
-    code: s.round,
-    name: s.roundName,
-  })),
+  // de-duplicated, chronological — a round can be offered by more than one
+  // programme (e.g. both MBA & MCA have a Round 2).
+  rounds: [...new Set(offeredRounds)]
+    .sort((a, b) => roundNum(a) - roundNum(b))
+    .map((code) => ({ code, name: SOURCES.find((s) => s.round === code).roundName })),
   cities: [...new Set(colleges.map((c) => c.city))].sort(),
   collegeTypes: [...new Set(colleges.map((c) => c.type))].sort(),
 };

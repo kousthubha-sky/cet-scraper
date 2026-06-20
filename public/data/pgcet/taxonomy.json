@@ -11,6 +11,11 @@
       "branch": "MCA",
       "round": "R1",
       "roundName": "Round 1"
+    },
+    {
+      "branch": "MCA",
+      "round": "R2",
+      "roundName": "Round 2"
     }
   ],
   "branches": [
@@ -63,12 +68,12 @@
   ],
   "rounds": [
     {
-      "code": "R2",
-      "name": "Round 2"
-    },
-    {
       "code": "R1",
       "name": "Round 1"
+    },
+    {
+      "code": "R2",
+      "name": "Round 2"
     }
   ],
   "cities": [

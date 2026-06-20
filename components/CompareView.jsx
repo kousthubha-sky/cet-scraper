@@ -19,7 +19,23 @@ import { cn } from "@/lib/utils";
 export function CompareView({ colleges, colA, colB, taxonomy, basePath = "", defaultRound = "R1" }) {
   const router = useRouter();
   const [category, setCategory] = useState("GM");
-  const [round, setRound] = useState(defaultRound);
+  // Round options come from the rounds the two chosen colleges actually have
+  // (MCA holds R1 & R2, MBA only R2), defaulting to the latest. `activeRound`
+  // clamps to an available round so a stale pick never blanks the table.
+  const roundNum = (r) => parseInt(String(r).replace(/\D/g, ""), 10) || 0;
+  const availableRounds = useMemo(() => {
+    const codes = [
+      ...new Set([...(colA?.cutoffs || []), ...(colB?.cutoffs || [])].map((r) => r.round)),
+    ].sort((a, b) => roundNum(a) - roundNum(b));
+    return codes.map((code) => ({
+      code,
+      name: taxonomy.rounds.find((r) => r.code === code)?.name || code,
+    }));
+  }, [colA, colB, taxonomy]);
+  const [round, setRound] = useState(availableRounds.at(-1)?.code || defaultRound);
+  const activeRound = availableRounds.some((r) => r.code === round)
+    ? round
+    : availableRounds.at(-1)?.code || round;
 
   const setPick = (slot, code) => {
     const params = new URLSearchParams();
@@ -37,17 +53,15 @@ export function CompareView({ colleges, colA, colB, taxonomy, basePath = "", def
 
   const rows = useMemo(() => {
     if (!colA || !colB) return [];
-    // PGCET publishes one round per programme (MBA ⇒ R2, MCA ⇒ R1), so a single
-    // global round blanks whichever programme isn't in the picked round. When a
+    // A programme may hold only some rounds (MBA only R2; MCA R1 & R2). If a
     // branch+category has just one round of data, show it regardless of the
-    // picker; with multiple rounds (KCET) keep the exact-round match so we never
-    // silently mix rounds.
+    // picker; otherwise match the active round so we never silently mix rounds.
     const pick = (col, branch) => {
       const rowsFor = col.cutoffs.filter(
         (r) => r.branch === branch && r.category === category
       );
       if (rowsFor.length <= 1) return rowsFor[0]?.closingRank ?? null;
-      return rowsFor.find((r) => r.round === round)?.closingRank ?? null;
+      return rowsFor.find((r) => r.round === activeRound)?.closingRank ?? null;
     };
     const branchCodes = [
       ...new Set([
@@ -62,7 +76,7 @@ export function CompareView({ colleges, colA, colB, taxonomy, basePath = "", def
         return { code, name, a: pick(colA, code), b: pick(colB, code) };
       })
       .sort((x, y) => (x.a ?? Infinity) - (y.a ?? Infinity));
-  }, [colA, colB, category, round, taxonomy]);
+  }, [colA, colB, category, activeRound, taxonomy]);
 
   return (
     <div className="space-y-5">
@@ -112,10 +126,10 @@ export function CompareView({ colleges, colA, colB, taxonomy, basePath = "", def
               <span className="text-xs font-medium text-muted-foreground">Round</span>
               <Select
                 aria-label="Round"
-                value={round}
+                value={activeRound}
                 onChange={setRound}
                 className="w-44"
-                options={taxonomy.rounds.map((r) => ({ value: r.code, label: r.name }))}
+                options={availableRounds.map((r) => ({ value: r.code, label: r.name }))}
               />
             </label>
           </div>

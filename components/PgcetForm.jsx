@@ -17,22 +17,31 @@ import { cn } from "@/lib/utils";
  */
 export function PgcetForm({ taxonomy, defaults = {} }) {
   const router = useRouter();
-  const roundFor = (b) =>
-    taxonomy.coverage.find((c) => c.branch === b)?.round || taxonomy.rounds[0]?.code;
+  // PGCET publishes different rounds per programme (MCA has R1 & R2, MBA only
+  // R2 so far), so the round options follow the chosen programme and default to
+  // its latest round.
+  const roundNum = (r) => parseInt(String(r).replace(/\D/g, ""), 10) || 0;
+  const roundsFor = (b) =>
+    taxonomy.coverage
+      .filter((c) => c.branch === b)
+      .sort((x, y) => roundNum(x.round) - roundNum(y.round))
+      .map((c) => ({ code: c.round, name: c.roundName }));
+  const latestRoundFor = (b) =>
+    roundsFor(b).at(-1)?.code || taxonomy.rounds.at(-1)?.code;
 
   const firstBranch = defaults.branch || taxonomy.branches[0]?.code;
   const [branch, setBranch] = useState(firstBranch);
-  const [round, setRound] = useState(defaults.round || roundFor(firstBranch));
+  const [round, setRound] = useState(defaults.round || latestRoundFor(firstBranch));
   const [category, setCategory] = useState(defaults.category || "GM");
   const [rank, setRank] = useState(defaults.rank || "");
   const [marks, setMarks] = useState(defaults.marks || "");
 
   const hasInput = parseInt(rank, 10) > 0 || parseInt(marks, 10) > 0;
 
-  // switching programme snaps the round to that programme's published round
+  // switching programme snaps the round to that programme's latest round
   const onBranch = (v) => {
     setBranch(v);
-    setRound(roundFor(v));
+    setRound(latestRoundFor(v));
   };
 
   const submit = (e) => {
@@ -61,7 +70,7 @@ export function PgcetForm({ taxonomy, defaults = {} }) {
             aria-label="Round"
             value={round}
             onChange={setRound}
-            options={taxonomy.rounds.map((r) => ({ value: r.code, label: r.name }))}
+            options={roundsFor(branch).map((r) => ({ value: r.code, label: r.name }))}
           />
         </Field>
         <Field label="Category" className="sm:col-span-2">
@@ -107,9 +116,9 @@ export function PgcetForm({ taxonomy, defaults = {} }) {
         Enter your <span className="font-medium text-foreground">rank</span> for an exact match, or
         just your <span className="font-medium text-foreground">marks</span> for an estimated rank —
         PGCET tops out near <span className="font-medium text-foreground">75</span>, so 60+ usually
-        means a top rank. KEA has published{" "}
-        <span className="font-medium text-foreground">MBA Round 2</span> and{" "}
-        <span className="font-medium text-foreground">MCA Round 1</span> cut-offs so far.
+        means a top rank. Genuine KEA cut-offs —{" "}
+        <span className="font-medium text-foreground">MCA Rounds 1 &amp; 2</span> and{" "}
+        <span className="font-medium text-foreground">MBA Round 2</span>.
       </p>
     </div>
   );

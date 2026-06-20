@@ -8,7 +8,7 @@ import { formatRank, ordinal } from "@/lib/format";
 export const metadata = {
   title: "PGCET College Predictor 2025 — MBA & MCA by Your Rank or Marks",
   description:
-    "Enter your Karnataka PGCET-2025 rank (or marks) to see the MBA and MCA colleges you can get, classified Safe, Target and Reach. Genuine KEA round-wise allotment cut-off ranks — MBA Round 2, MCA Round 1.",
+    "Enter your Karnataka PGCET-2025 rank (or marks) to see the MBA and MCA colleges you can get, classified Safe, Target and Reach. Genuine KEA round-wise allotment cut-off ranks — MCA Rounds 1 & 2, MBA Round 2.",
   alternates: { canonical: "/pgcet/predict" },
 };
 
